@@ -1,7 +1,7 @@
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
+import MenuIcon from '@mui/icons-material/Menu';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
@@ -17,7 +17,8 @@ import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 import * as React from 'react';
 import { useState } from 'react';
-import { AppBar, DrawerHeader, Drawer, drawerWidth } from './sidebarStyles';
+import { Link } from 'react-router-dom';
+import { AppBar, Drawer, DrawerHeader, drawerWidth } from './sidebarStyles';
 
 export default function MiniDrawer() {
     const theme = useTheme();
@@ -71,7 +72,7 @@ export default function MiniDrawer() {
         <List>
             {sidebarOptions.map((option, index) => (
                 <ListItem key={option.text} disablePadding sx={{ display: 'block' }}>
-                    <ListItemButton href={option.route}
+                    <ListItemButton component={Link} to={option.route}
                         sx={{
                         minHeight: 48,
                         justifyContent: open ? 'initial' : 'center',
