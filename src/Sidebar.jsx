@@ -53,8 +53,8 @@ export default function MiniDrawer() {
                     </IconButton>
                 </Box>
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                <Typography variant="overline" noWrap component="div" sx={{ fontSize: 20 }}>
-                    OKRIM DEV
+                <Typography variant="overline" noWrap component="div">
+                    OKRIM | Computer Science portfolio
                 </Typography>
                 </Box>
                 <Box component="img" src="/icon.png" alt="logo" sx={{ height: '50px', width: 'auto', marginLeft: '10px' }} />
