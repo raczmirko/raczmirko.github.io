@@ -33,7 +33,7 @@ export default function MiniDrawer() {
     };
   
   const sidebarOptions = [
-      { icon: <HomeIcon />, text: 'Home', route: '/home' },
+      { icon: <HomeIcon />, text: 'Home', route: '/' },
   ];
 
   return (

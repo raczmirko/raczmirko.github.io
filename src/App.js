@@ -13,7 +13,7 @@ function App() {
       <CssBaseline/>
       <Sidebar/>
       <Routes>
-        <Route path="/home" 
+        <Route path="/" 
           element={<Home/>}
         />
       </Routes>
