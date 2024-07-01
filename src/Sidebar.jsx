@@ -1,7 +1,12 @@
+import EmailIcon from '@mui/icons-material/AlternateEmail';
+import ArticleIcon from '@mui/icons-material/Article';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import HomeIcon from '@mui/icons-material/Home';
+import DataObjectIcon from '@mui/icons-material/DataObject';
+import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
 import MenuIcon from '@mui/icons-material/Menu';
+import PersonIcon from '@mui/icons-material/Person';
+import SchoolIcon from '@mui/icons-material/School';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
@@ -21,19 +26,24 @@ import { Link } from 'react-router-dom';
 import { AppBar, Drawer, DrawerHeader, drawerWidth } from './sidebarStyles';
 
 export default function MiniDrawer() {
-    const theme = useTheme();
-    const [open, setOpen] = useState(false);
+  const theme = useTheme();
+  const [open, setOpen] = useState(false);
 
-    const handleDrawerOpen = () => {
-        setOpen(true);
-    };
+  const handleDrawerOpen = () => {
+      setOpen(true);
+  };
 
-    const handleDrawerClose = () => {
-        setOpen(false);
-    };
+  const handleDrawerClose = () => {
+      setOpen(false);
+  };
   
   const sidebarOptions = [
-      { icon: <HomeIcon />, text: 'Home', route: '/' },
+    { icon: <PersonIcon />, text: 'About Me', route: '/' },
+    { icon: <DataObjectIcon />, text: 'Projects', route: '/projects' },
+    { icon: <ArticleIcon />, text: 'Resources', route: '/resources' },
+    { icon: <SchoolIcon />, text: 'Academic', route: '/resources' },
+    { icon: <DeveloperBoardIcon />, text: 'Skills', route: '/skills' },
+    { icon: <EmailIcon />, text: 'Contact', route: '/contact' },
   ];
 
   return (
@@ -57,7 +67,7 @@ export default function MiniDrawer() {
                     OKRIM | Computer Science portfolio
                 </Typography>
                 </Box>
-                <Box component="img" src="/icon.png" alt="logo" sx={{ height: '50px', width: 'auto', marginLeft: '10px' }} />
+                <Box component="img" src="/icon.png" alt="logo" sx={{ maxHeight: '40px', width: 'auto', marginLeft: '10px' }} />
             </Toolbar>
         </AppBar>
       <Drawer variant="permanent" open={open}>
