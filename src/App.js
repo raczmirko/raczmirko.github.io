@@ -13,7 +13,7 @@ function App() {
     <ThemeProvider theme={createTheme({palette: {mode: 'dark'}})}>
       <CssBaseline/>
       <Sidebar/>
-      <Box className="pageBody">
+      <Box className="page-body">
         <Routes>
           <Route path="/" 
             element={<Home/>}
