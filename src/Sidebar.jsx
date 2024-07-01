@@ -48,28 +48,28 @@ export default function MiniDrawer() {
 
   return (
     <Box sx={{ display: 'flex' }}>
-        <CssBaseline />
-        <AppBar position="fixed" open={open}>
-            <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                    <IconButton
-                        color="inherit"
-                        aria-label="open drawer"
-                        onClick={handleDrawerOpen}
-                        edge="start"
-                        sx={{marginRight: 5, ...(open && { display: 'none' })}}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                </Box>
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                <Typography variant="overline" noWrap component="div">
-                    OKRIM | Computer Science portfolio
-                </Typography>
-                </Box>
-                <Box component="img" src="/icon.png" alt="logo" sx={{ maxHeight: '40px', width: 'auto', marginLeft: '10px' }} />
-            </Toolbar>
-        </AppBar>
+      <CssBaseline />
+      <AppBar position="fixed" open={open}>
+        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <IconButton
+                color="inherit"
+                aria-label="open drawer"
+                onClick={handleDrawerOpen}
+                edge="start"
+                sx={{marginRight: 5, ...(open && { display: 'none' })}}
+            >
+              <MenuIcon />
+            </IconButton>
+          </Box>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Typography variant="overline" noWrap component="div">
+              OKRIM | Computer Science portfolio
+          </Typography>
+          </Box>
+          <Box component="img" src="/icon.png" alt="logo" sx={{ maxHeight: '30px', width: 'auto', marginLeft: '10px' }} />
+        </Toolbar>
+      </AppBar>
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
@@ -77,33 +77,24 @@ export default function MiniDrawer() {
           </IconButton>
         </DrawerHeader>
         <Divider />
-        
         <Divider />
         <List>
-            {sidebarOptions.map((option, index) => (
-                <ListItem key={option.text} disablePadding sx={{ display: 'block' }}>
-                    <ListItemButton component={Link} to={option.route}
-                        sx={{
-                        minHeight: 48,
-                        justifyContent: open ? 'initial' : 'center',
-                        px: 2.5,
-                        }}
-                    >
-                        <Tooltip title={option.text} placement="right">
-                        <ListItemIcon
-                        sx={{
-                            minWidth: 0,
-                            mr: open ? 3 : 'auto',
-                            justifyContent: 'center',
-                        }}
-                        >
-                            {option.icon}
-                        </ListItemIcon>
-                        </Tooltip>
-                        <ListItemText primary={option.text} sx={{ opacity: open ? 1 : 0 }} />
-                    </ListItemButton>
-                </ListItem>
-            ))}
+          {sidebarOptions.map((option, index) => (
+            <ListItem key={option.text} disablePadding sx={{ display: 'block' }}>
+              <ListItemButton component={Link} to={option.route}
+                  sx={{ minHeight: 48, justifyContent: open ? 'initial' : 'center', px: 2.5, }}
+              >
+                  <Tooltip title={option.text} placement="right">
+                  <ListItemIcon
+                  sx={{ minWidth: 0, mr: open ? 3 : 'auto', justifyContent: 'center', }}
+                  >
+                      {option.icon}
+                  </ListItemIcon>
+                  </Tooltip>
+                  <ListItemText primary={option.text} sx={{ opacity: open ? 1 : 0 }} />
+              </ListItemButton>
+            </ListItem>
+          ))}
         </List>
       </Drawer>
       {/* Adjust content margin based on sidebar state */}
