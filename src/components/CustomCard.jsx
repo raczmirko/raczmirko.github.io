@@ -5,14 +5,21 @@ import { outlinedTextStyle, titleSize, subTitleSize,
 
 const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
     return (
-        <Card sx={{ position: 'relative', overflow: 'hidden', borderRadius: '15px', width: cardWidth }}>
+        <Card sx={{ 
+            position: 'relative', 
+            alignContent: 'center',
+            overflow: 'auto', 
+            borderRadius: '15px', 
+            width: cardWidth, 
+            minHeight: cardHeight, 
+            backgroundColor: bgColor ? bgColor : colorUtil.PINE, }}
+        >
             <CardContent
                 sx={{
                     position: 'relative',
                     display: 'flex',
                     alignItems: 'center',
                     color: textColor ? textColor : 'white',
-                    backgroundColor: bgColor ? bgColor : colorUtil.PINE,
                     textAlign: 'left',
                     padding: {
                         xs: '16px', // mobile
