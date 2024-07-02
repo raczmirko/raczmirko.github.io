@@ -1,8 +1,8 @@
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
-import bannerImage from '../assets/banner.jpg';
-import { outlinedTextStyle, titleSize, paragraphSize, cardHeight } from '../assets/styles';
 import { useTranslation } from 'react-i18next';
+import bannerImage from '../assets/banner.jpg';
+import { heroCardHeight, outlinedTextStyle, subTitleSize, titleSize } from '../assets/styles';
 
 const WelcomeCard = () => {
   const { t: translate } = useTranslation();
@@ -16,9 +16,9 @@ const WelcomeCard = () => {
         sx={{
           opacity: 0.7,
           height: {
-            xs: cardHeight.xs, // mobile
-            sm: cardHeight.sm, // small screens
-            md: cardHeight.md // medium and up
+            xs: heroCardHeight.xs, // mobile
+            sm: heroCardHeight.sm, // small screens
+            md: heroCardHeight.md // medium and up
           }
         }}
       />
@@ -61,9 +61,9 @@ const WelcomeCard = () => {
           gutterBottom
           sx={{
             fontSize: {
-              xs: paragraphSize.xs, // mobile
-              sm: paragraphSize.sm, // small screens
-              md: paragraphSize.md // medium and up
+              xs: subTitleSize.xs, // mobile
+              sm: subTitleSize.sm, // small screens
+              md: subTitleSize.md // medium and up
             },
             ...outlinedTextStyle
           }}
