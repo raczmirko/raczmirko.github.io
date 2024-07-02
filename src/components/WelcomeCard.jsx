@@ -1,7 +1,7 @@
-import React from 'react';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
-import bannerImage from './banner.jpg';
-import { outlinedTextStyle } from './styles'; 
+import React from 'react';
+import bannerImage from '../assets/banner.jpg';
+import { outlinedTextStyle } from '../assets/styles';
 
 const WelcomeCard = () => {
   return (

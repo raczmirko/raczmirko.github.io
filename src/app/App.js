@@ -1,11 +1,11 @@
+import { Box } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Home from './Home';
+import '../assets/App.css';
 import Sidebar from './Sidebar';
-import { Box } from '@mui/material';
+import Home from './pages/Home';
 
 
 function App() {

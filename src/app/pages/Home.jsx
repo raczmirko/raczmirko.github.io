@@ -1,6 +1,6 @@
 import Container from "@mui/material/Container";
-import ParticleBackground from "./ParticleBackground";
-import WelcomeCard from "./WelcomeCard";
+import ParticleBackground from "../../components/ParticleBackground";
+import WelcomeCard from "../../components/WelcomeCard";
 
 const Home = () => {
     return(

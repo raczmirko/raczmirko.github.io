@@ -23,7 +23,7 @@ import { useTheme } from '@mui/material/styles';
 import * as React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AppBar, Drawer, DrawerHeader, drawerWidth } from './sidebarStyles';
+import { AppBar, Drawer, DrawerHeader, drawerWidth } from '../assets/sidebarStyles';
 
 export default function MiniDrawer() {
   const theme = useTheme();
