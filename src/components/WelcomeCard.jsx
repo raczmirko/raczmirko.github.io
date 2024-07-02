@@ -1,7 +1,7 @@
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 import bannerImage from '../assets/banner.jpg';
-import { outlinedTextStyle } from '../assets/styles';
+import { outlinedTextStyle, titleSize, paragraphSize, cardHeight } from '../assets/styles';
 
 const WelcomeCard = () => {
   return (
@@ -14,9 +14,9 @@ const WelcomeCard = () => {
         sx={{
           opacity: 0.7,
           height: {
-            xs: 200, // mobile
-            sm: 400, // small screens
-            md: 500 // medium and up
+            xs: cardHeight.xs, // mobile
+            sm: cardHeight.sm, // small screens
+            md: cardHeight.md // medium and up
           }
         }}
       />
@@ -43,9 +43,9 @@ const WelcomeCard = () => {
           component="div"
           sx={{
             fontSize: {
-              xs: '40px', // mobile
-              sm: '60px', // small screens
-              md: '140px' // medium and up
+              xs: titleSize.xs, // mobile
+              sm: titleSize.sm, // small screens
+              md: titleSize.md // medium and up
             },
             ...outlinedTextStyle,
             lineHeight: '1.2'
@@ -59,9 +59,9 @@ const WelcomeCard = () => {
           gutterBottom
           sx={{
             fontSize: {
-              xs: '16px', // mobile
-              sm: '20px', // small screens
-              md: '24px' // medium and up
+              xs: paragraphSize.xs, // mobile
+              sm: paragraphSize.sm, // small screens
+              md: paragraphSize.md // medium and up
             },
             ...outlinedTextStyle
           }}
