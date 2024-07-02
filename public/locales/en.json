@@ -1,0 +1,19 @@
+{
+    "menu": {
+        "about": "About me",
+        "projects": "Projects",
+        "resources": "Resources",
+        "academic": "Academic",
+        "skills": "Skills",
+        "contact": "Contact me"
+    },
+    "home": {
+        "title": "WELCOME",
+        "welcome": "to OKRIM | MIRKO RACZ's computer science portfolio & website!",
+        "cards": {
+            "projectsTitle": "Projects",
+            "projectsDesc": "Explore my personal IT projects in great detail with specifications and images for a concise picture.",
+            "resources": ""
+        }       
+    }
+}
