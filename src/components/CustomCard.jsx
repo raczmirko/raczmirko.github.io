@@ -41,7 +41,6 @@ const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
                                 sm: subTitleSize.sm, // small screens
                                 md: subTitleSize.md // medium and up
                             },
-                            ...outlinedTextStyle,
                             lineHeight: '1.2'
                         }}
                     >
@@ -57,7 +56,6 @@ const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
                                 sm: paragraphSize.sm, // small screens
                                 md: paragraphSize.md // medium and up
                             },
-                            ...outlinedTextStyle,
                             marginTop: 1
                         }}
                     >
