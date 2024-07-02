@@ -1,12 +1,12 @@
 import EmailIcon from '@mui/icons-material/AlternateEmail';
-import ArticleIcon from '@mui/icons-material/Article';
+import ResourceIcon from '@mui/icons-material/Article';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import DataObjectIcon from '@mui/icons-material/DataObject';
-import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
+import ProjectIcon from '@mui/icons-material/DataObject';
+import SkillsIcon from '@mui/icons-material/DeveloperBoard';
 import MenuIcon from '@mui/icons-material/Menu';
 import PersonIcon from '@mui/icons-material/Person';
-import SchoolIcon from '@mui/icons-material/School';
+import AcademicIcon from '@mui/icons-material/School';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
@@ -24,10 +24,12 @@ import * as React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AppBar, Drawer, DrawerHeader, drawerWidth } from '../assets/sidebarStyles';
+import { useTranslation } from 'react-i18next';
 
 export default function MiniDrawer() {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
+  const { t: translate } = useTranslation();
 
   const handleDrawerOpen = () => {
       setOpen(true);
@@ -38,12 +40,12 @@ export default function MiniDrawer() {
   };
   
   const sidebarOptions = [
-    { icon: <PersonIcon />, text: 'About Me', route: '/' },
-    { icon: <DataObjectIcon />, text: 'Projects', route: '/projects' },
-    { icon: <ArticleIcon />, text: 'Resources', route: '/resources' },
-    { icon: <SchoolIcon />, text: 'Academic', route: '/resources' },
-    { icon: <DeveloperBoardIcon />, text: 'Skills', route: '/skills' },
-    { icon: <EmailIcon />, text: 'Contact', route: '/contact' },
+    { icon: <PersonIcon />, text: translate('menu.about'), route: '/' },
+    { icon: <ProjectIcon />, text: translate('menu.projects'), route: '/projects' },
+    { icon: <ResourceIcon />, text: translate('menu.resources'), route: '/resources' },
+    { icon: <AcademicIcon />, text: translate('menu.academic'), route: '/academic' },
+    { icon: <SkillsIcon />, text: translate('menu.skills'), route: '/skills' },
+    { icon: <EmailIcon />, text: translate('menu.contact'), route: '/contact' },
   ];
 
   return (
