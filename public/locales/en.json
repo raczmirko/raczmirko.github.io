@@ -9,11 +9,17 @@
     },
     "home": {
         "title": "WELCOME",
-        "welcome": "to OKRIM | MIRKO RACZ's computer science portfolio & website!",
+        "welcome": "to OKRIM | MIRKO RACZ's website!",
         "cards": {
             "projectsTitle": "Projects",
             "projectsDesc": "Explore my personal IT projects in great detail with specifications and images for a concise picture.",
-            "resources": ""
+            "resourcesTitle": "Resources",
+            "resourcesDesc": "I wanted to have a place where I can collect useful IT resources, and I thought it may be useful for others too.",
+            "skillsTitle": "Skills",
+            "skillsDesc": "A dedicated page to list my skills that I have acquired over the years.",
+            "academicTitle": "Academic",
+            "academicDesc": "A collection of my academic contributions such as publications and presentations."
+
         }       
     }
 }
