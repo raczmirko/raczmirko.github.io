@@ -2,8 +2,10 @@ import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 import bannerImage from '../assets/banner.jpg';
 import { outlinedTextStyle, titleSize, paragraphSize, cardHeight } from '../assets/styles';
+import { useTranslation } from 'react-i18next';
 
 const WelcomeCard = () => {
+  const { t: translate } = useTranslation();
   return (
     <Card sx={{ position: 'relative', overflow: 'hidden', borderRadius: '15px' }}>
       <CardMedia
@@ -51,7 +53,7 @@ const WelcomeCard = () => {
             lineHeight: '1.2'
           }}
         >
-          WELCOME
+          {translate('home.title')}
         </Typography>
         <Typography
           variant="h5"
@@ -66,7 +68,7 @@ const WelcomeCard = () => {
             ...outlinedTextStyle
           }}
         >
-          to OKRIM | MIRKO RACZ's computer science portfolio & website!
+          {translate('home.welcome')}
         </Typography>
       </CardContent>
     </Card>
