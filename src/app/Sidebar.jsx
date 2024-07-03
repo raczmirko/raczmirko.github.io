@@ -4,6 +4,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ProjectIcon from '@mui/icons-material/DataObject';
 import SkillsIcon from '@mui/icons-material/DeveloperBoard';
+import HomeIcon from '@mui/icons-material/Home';
 import MenuIcon from '@mui/icons-material/Menu';
 import PersonIcon from '@mui/icons-material/Person';
 import AcademicIcon from '@mui/icons-material/School';
@@ -22,9 +23,9 @@ import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 import * as React from 'react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { AppBar, Drawer, DrawerHeader, drawerWidth } from '../assets/sidebarStyles';
-import { useTranslation } from 'react-i18next';
 
 export default function MiniDrawer() {
   const theme = useTheme();
@@ -40,7 +41,8 @@ export default function MiniDrawer() {
   };
   
   const sidebarOptions = [
-    { icon: <PersonIcon />, text: translate('menu.about'), route: '/' },
+    { icon: <HomeIcon />, text: translate('menu.home'), route: '/' },
+    { icon: <PersonIcon />, text: translate('menu.about'), route: '/about' },
     { icon: <ProjectIcon />, text: translate('menu.projects'), route: '/projects' },
     { icon: <ResourceIcon />, text: translate('menu.resources'), route: '/resources' },
     { icon: <AcademicIcon />, text: translate('menu.academic'), route: '/academic' },
