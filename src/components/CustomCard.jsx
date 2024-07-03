@@ -1,7 +1,7 @@
 import { Card, CardContent, Typography, Box } from '@mui/material';
 import colorUtil from '../utils/colorUtil';
 import { outlinedTextStyle, titleSize, subTitleSize, 
-    paragraphSize, cardHeight, cardWidth, cardIconSize } from '../assets/styles';
+    paragraphSize, cardHeight, cardWidth, cardIconSize, cardTitleSize } from '../assets/styles';
 
 const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
     return (
@@ -37,9 +37,9 @@ const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
                         component="div"
                         sx={{
                             fontSize: {
-                                xs: subTitleSize.xs, // mobile
-                                sm: subTitleSize.sm, // small screens
-                                md: subTitleSize.md // medium and up
+                                xs: cardTitleSize.xs, // mobile
+                                sm: cardTitleSize.sm, // small screens
+                                md: cardTitleSize.md // medium and up
                             },
                             lineHeight: '1.2'
                         }}
