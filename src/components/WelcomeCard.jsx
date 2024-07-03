@@ -2,7 +2,7 @@ import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import bannerImage from '../assets/banner.jpg';
-import { heroCardHeight, outlinedTextStyle, subTitleSize, titleSize } from '../assets/styles';
+import { cardTitleSize, heroCardHeight, outlinedTextStyle, subTitleSize, titleSize } from '../assets/styles';
 
 const WelcomeCard = () => {
   const { t: translate } = useTranslation();
@@ -45,9 +45,9 @@ const WelcomeCard = () => {
           component="div"
           sx={{
             fontSize: {
-              xs: subTitleSize.xs, // mobile
-              sm: subTitleSize.sm, // small screens
-              md: subTitleSize.md // medium and up
+              xs: cardTitleSize.xs, // mobile
+              sm: cardTitleSize.sm, // small screens
+              md: cardTitleSize.md // medium and up
             },
             ...outlinedTextStyle,
             lineHeight: '1.2'

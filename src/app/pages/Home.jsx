@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 import CustomCard from "../../components/CustomCard";
 import ParticleBackground from "../../components/ParticleBackground";
 import WelcomeCard from "../../components/WelcomeCard";
+import BlockTitle from '../../components/BlockTitle';
 
 const Home = () => {
     const { t: translate } = useTranslation();
@@ -17,6 +18,7 @@ const Home = () => {
                 <ParticleBackground />
             </Container>
             <WelcomeCard/>
+            <BlockTitle title={translate('home.about')}/>
             <Box sx={{ marginTop: 2 }} />
             <Grid container spacing={{ xs: 1, sm: 2 }} justifyContent="center">
                 <Grid item xs={12} sm={6}>
