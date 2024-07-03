@@ -45,6 +45,20 @@ const WelcomeCard = () => {
           component="div"
           sx={{
             fontSize: {
+              xs: subTitleSize.xs, // mobile
+              sm: subTitleSize.sm, // small screens
+              md: subTitleSize.md // medium and up
+            },
+            ...outlinedTextStyle,
+            lineHeight: '1.2'
+          }}
+        >
+          {translate('home.welcome')}
+        </Typography>
+        <Typography
+          component="div"
+          sx={{
+            fontSize: {
               xs: titleSize.xs, // mobile
               sm: titleSize.sm, // small screens
               md: titleSize.md // medium and up
@@ -53,7 +67,7 @@ const WelcomeCard = () => {
             lineHeight: '1.2'
           }}
         >
-          {translate('home.title')}
+          {translate('home.authorName')}
         </Typography>
         <Typography
           variant="h5"
@@ -68,7 +82,7 @@ const WelcomeCard = () => {
             ...outlinedTextStyle
           }}
         >
-          {translate('home.welcome')}
+          {translate('home.welcomeMsg')}
         </Typography>
       </CardContent>
     </Card>

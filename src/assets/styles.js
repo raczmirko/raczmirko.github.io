@@ -22,9 +22,9 @@ export const cardWidth = {
   md: '100%' // medium and up
 };
 export const cardIconSize = {
-  xs: '50px', // mobile
+  xs: '60px', // mobile
   sm: '60px', // small screens
-  md: '120px' // medium and up
+  md: '80px' // medium and up
 };
 export const cardTitleSize = {
   xs: '26px', // mobile
@@ -37,7 +37,7 @@ export const titleSize = {
   md: '140px' // medium and up
 };
 export const subTitleSize = {
-  xs: '16px', // mobile
+  xs: '18px', // mobile
   sm: '26px', // small screens
   md: '30px' // medium and up
 };

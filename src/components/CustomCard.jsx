@@ -28,7 +28,7 @@ const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
                 }}
             >
                 {Icon && (
-                    <Box sx={{ marginRight: 2 }}>
+                    <Box sx={{ marginRight: 4 }}>
                         <Icon sx={{ fontSize: cardIconSize }} />
                     </Box>
                 )}
