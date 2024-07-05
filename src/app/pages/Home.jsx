@@ -24,29 +24,29 @@ const Home = () => {
                 <Grid item xs={12} sm={6}>
                     <CustomCard
                         icon={ProjectIcon}
-                        title={translate('home.cards.projectsTitle')}
-                        body={translate('home.cards.projectsDesc')}
+                        title={translate('home.cards.projects.title')}
+                        body={translate('home.cards.projects.description')}
                     />
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <CustomCard
                         icon={ResourceIcon}
-                        title={translate('home.cards.resourcesTitle')}
-                        body={translate('home.cards.resourcesDesc')}
+                        title={translate('home.cards.resources.title')}
+                        body={translate('home.cards.resources.description')}
                     />
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <CustomCard
                         icon={SkillsIcon}
-                        title={translate('home.cards.skillsTitle')}
-                        body={translate('home.cards.skillsDesc')}
+                        title={translate('home.cards.skills.title')}
+                        body={translate('home.cards.skills.description')}
                     />
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <CustomCard
                         icon={AcademicIcon}
-                        title={translate('home.cards.academicTitle')}
-                        body={translate('home.cards.academicDesc')}
+                        title={translate('home.cards.academic.title')}
+                        body={translate('home.cards.academic.description')}
                     />
                 </Grid>
             </Grid>

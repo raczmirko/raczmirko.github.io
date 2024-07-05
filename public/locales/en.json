@@ -14,15 +14,38 @@
         "welcomeMsg": "'s portfolio website!",
         "about": "What's this site about?",
         "cards": {
-            "projectsTitle": "Projects",
-            "projectsDesc": "Explore my personal IT projects in great detail with specifications and images for a concise picture.",
-            "resourcesTitle": "Resources",
-            "resourcesDesc": "I wanted to have a place where I can collect useful IT resources, and I thought it may be useful for others too.",
-            "skillsTitle": "Skills",
-            "skillsDesc": "A dedicated page to list my skills that I have acquired over the years.",
-            "academicTitle": "Academic contributions",
-            "academicDesc": "A collection of my academic contributions such as publications and presentations."
-
-        }       
+            "projects": {
+                "title": "Projects",
+                "description": "Explore my personal IT projects in great detail with specifications and images for a concise picture."
+            },
+            "resources": {
+                "title": "Resources",
+                "description": "I wanted to have a place where I can collect useful IT resources, and I thought it may be useful for others too."
+            },
+            "skills": {
+                "title": "Skills",
+                "description": "A dedicated page to list my skills that I have acquired over the years."
+            },
+            "academic": {
+                "title": "Academic contributions",
+                "description": "A collection of my academic contributions such as publications and presentations."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Send me an (encrypted) email!",
+        "getInTouch": "Get in touch with me:",
+        "email": {
+            "title": "My email address",
+            "description": "contact(at)okrim(dot)hu"
+        },
+        "pgp":{
+            "title": "Download or copy my public key:",
+            "subtitle": "You can import this public PGP key to your keychain, and then send me encrypted messages with it.",
+            "download": "Download public key",
+            "copy": "Copy key to clipboard",
+            "asText": "View my PGP public key as text"
+        }
     }
 }

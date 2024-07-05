@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import '../assets/App.css';
 import Sidebar from './Sidebar';
 import Home from './pages/Home';
-
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
         <Routes>
           <Route path="/" 
             element={<Home/>}
+          />
+          <Route path="/contact" 
+            element={<Contact/>}
           />
         </Routes>
       </Box>
