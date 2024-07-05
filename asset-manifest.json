@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.16db395a.css",
-    "main.js": "/static/js/main.bd572247.js",
+    "main.js": "/static/js/main.d7dd5e1f.js",
     "static/media/banner.jpg": "/static/media/banner.73a30472beab62d9f1c9.jpg",
     "index.html": "/index.html",
+    "static/media/okrim_public_key.asc": "/static/media/okrim_public_key.aa26884c699d97ba8cc8.asc",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.16db395a.css.map": "/static/css/main.16db395a.css.map",
-    "main.bd572247.js.map": "/static/js/main.bd572247.js.map"
+    "main.d7dd5e1f.js.map": "/static/js/main.d7dd5e1f.js.map"
   },
   "entrypoints": [
     "static/css/main.16db395a.css",
-    "static/js/main.bd572247.js"
+    "static/js/main.d7dd5e1f.js"
   ]
 }
