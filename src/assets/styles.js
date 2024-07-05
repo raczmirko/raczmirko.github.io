@@ -31,6 +31,11 @@ export const cardTitleSize = {
   sm: '26px', // small screens
   md: '30px' // medium and up
 };
+export const titleCardTitleSize = {
+  xs: '30px', // mobile
+  sm: '36px', // small screens
+  md: '50px' // medium and up
+};
 export const titleSize = {
   xs: '50px', // mobile
   sm: '100px', // small screens
