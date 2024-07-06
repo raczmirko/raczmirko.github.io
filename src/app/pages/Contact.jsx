@@ -1,6 +1,6 @@
-import { EmailOutlined, LockOutlined } from '@mui/icons-material';
+import { EmailOutlined } from '@mui/icons-material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Box, Divider, Grid, Typography } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -8,12 +8,11 @@ import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
 import BlockTitle from '../../components/BlockTitle';
 import CustomCard from "../../components/CustomCard";
-import DownloadButton from '../../components/DownloadButton';
 import ParticleBackground from "../../components/ParticleBackground";
+import PublicKeyCard from '../../components/PublicKeyCard';
 import PublicKeyText from '../../components/PublicKeyText';
 import TitleCard from '../../components/TitleCard';
 import Colors from '../../utils/colorUtil';
-import PublicKeyCard from '../../components/PublicKeyCard';
 
 const Contact = () => {
     const { t: translate } = useTranslation();
