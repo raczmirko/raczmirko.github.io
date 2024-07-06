@@ -3,7 +3,7 @@ import React from 'react';
 import { paragraphSize, titleCardTitleSize } from '../assets/styles';
 import Colors from '../utils/colorUtil';
 
-const TitleCard = ({ title, subtitle }) => {
+const TitleCard = ({ title, subtitle, bgColor }) => {
   return (
     <Card sx={{ position: 'relative', overflow: 'hidden', borderRadius: '15px' }}>
       <CardContent
@@ -16,7 +16,7 @@ const TitleCard = ({ title, subtitle }) => {
           alignItems: 'center',
           color: 'white',
           textAlign: 'center',
-          backgroundColor: Colors.PURPLE,
+          backgroundColor: bgColor ? bgColor : Colors.PURPLE,
           padding: {
             xs: '16px', // mobile
             sm: '24px' // small screens and up
