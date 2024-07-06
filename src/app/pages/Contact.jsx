@@ -43,7 +43,7 @@ const Contact = () => {
                         >
                         {translate('contact.pgp.asText')}
                         </AccordionSummary>
-                        <AccordionDetails sx={{ textAlign: 'center' }}>
+                        <AccordionDetails sx={{ textAlign: 'center', overflow: 'auto' }}>
                             <PublicKeyText/>
                         </AccordionDetails>
                     </Accordion>
