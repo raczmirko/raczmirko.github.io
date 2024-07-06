@@ -38,7 +38,7 @@
         "getInTouch": "Get in touch with me:",
         "email": {
             "title": "My email address",
-            "description": "contact(at)okrim(dot)hu"
+            "description": "contact (at) okrim (dot) hu"
         },
         "pgp":{
             "title": "Download or copy my public key:",
