@@ -10,7 +10,6 @@ import {
 import colorUtil from '../utils/colorUtil';
 import DownloadButton from './DownloadButton';
 import TextClipboardButton from './PGPClipboardButton';
-import publicKeyTxt from '../assets/okrim_public_key.asc';
 
 const PublicKeyCard = () => {
     const { t: translate } = useTranslation();
@@ -22,7 +21,7 @@ const PublicKeyCard = () => {
             borderRadius: '15px', 
             width: cardWidth, 
             minHeight: cardHeight, 
-            backgroundColor: colorUtil.PURPLE }}
+            backgroundColor: colorUtil.PINE }}
         >
             <CardContent
                 sx={{
