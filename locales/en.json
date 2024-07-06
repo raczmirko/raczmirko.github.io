@@ -1,4 +1,7 @@
 {
+    "general": {
+        "summary": "Summary"
+    },
     "menu": {
         "home": "Home",
         "about": "About me",
@@ -38,7 +41,7 @@
         "getInTouch": "Get in touch with me:",
         "email": {
             "title": "My email address",
-            "description": "contact(at)okrim(dot)hu"
+            "description": "contact (at) okrim (dot) hu"
         },
         "pgp":{
             "title": "Download or copy my public key:",
@@ -46,6 +49,26 @@
             "download": "Download public key",
             "copy": "Copy key to clipboard",
             "asText": "View my PGP public key as text"
+        }
+    },
+    "academic": {
+        "title": "Academic contributions",
+        "summary": "During my academic years I always seeked opportunities to participate in workshops, projects, school events and so on. This page summarizes all my presentations, publications and other academic activities.",
+        "presentations": {
+            "title": "Presentations",
+            "one": {
+                "title": "BirdCam project",
+                "date": "June, 2021",
+                "location": "Dennis Gabor Talent Suppor Center gala",
+                "summary": "I presented my BridCam project, from creating the first prototype to the final publication.",
+                "description": "You can see more about my BirdCam project on the Projects page."
+            }
+        },
+        "publications": {
+            "title": "Publications"
+        },
+        "achievements": {
+            "title": "Other academic achievements"
         }
     }
 }
