@@ -1,12 +1,9 @@
 import { EmailOutlined } from '@mui/icons-material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Box, Grid } from '@mui/material';
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
 import BlockTitle from '../../components/BlockTitle';
+import CustomAccordion from '../../components/CustomAccordion';
 import CustomCard from "../../components/CustomCard";
 import ParticleBackground from "../../components/ParticleBackground";
 import PublicKeyCard from '../../components/PublicKeyCard';
@@ -36,16 +33,7 @@ const Contact = () => {
                     <PublicKeyCard/>
                 </Grid>
                 <Grid item xs={12} sm={8}>
-                    <Accordion sx={{ bgcolor: Colors.PURPLE }}>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                        >
-                        {translate('contact.pgp.asText')}
-                        </AccordionSummary>
-                        <AccordionDetails sx={{ textAlign: 'center', overflow: 'auto' }}>
-                            <PublicKeyText/>
-                        </AccordionDetails>
-                    </Accordion>
+                    <CustomAccordion title={translate('contact.pgp.asText')} body={PublicKeyText} bgColor={Colors.PURPLE}/>
                 </Grid>
             </Grid>
         </Container>
