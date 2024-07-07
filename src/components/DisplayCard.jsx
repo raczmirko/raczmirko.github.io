@@ -1,5 +1,5 @@
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Button } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -7,15 +7,16 @@ import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import Collapse from '@mui/material/Collapse';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
+import { ExpandMoreButton } from '../assets/cardStyles';
 import { cardWidth } from '../assets/styles';
 import Colors from '../utils/colorUtil';
-import { ExpandMoreButton } from '../assets/cardStyles';
 
-const DisplayCard = ({ title, summary, description, location, date, image, imageAltTxt }) => {
+const DisplayCard = ({ title, summary, description, location, date, image, imageAltTxt, link, linkName }) => {
     const [expanded, setExpanded] = React.useState(false);
+    const { t: translate } = useTranslation();
 
     const handleExpandClick = () => {
         setExpanded(!expanded);
@@ -38,6 +39,14 @@ const DisplayCard = ({ title, summary, description, location, date, image, image
                 <Typography paragraph>
                     {summary}
                 </Typography>
+                {link &&
+                    <Button
+                        href={link}
+                        target="_blank" // Open link in a new tab
+                    >
+                        {linkName ? linkName : translate('general.link')}
+                    </Button>
+                }
             </CardContent>
             <CardActions disableSpacing>
                 <ExpandMoreButton
