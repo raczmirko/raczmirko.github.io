@@ -1,4 +1,5 @@
 import ResourceIcon from '@mui/icons-material/Article';
+import CodeIcon from '@mui/icons-material/Code';
 import ProjectIcon from '@mui/icons-material/DataObject';
 import SkillsIcon from '@mui/icons-material/DeveloperBoard';
 import AcademicIcon from '@mui/icons-material/School';
@@ -19,8 +20,15 @@ const Home = () => {
             </Container>
             <WelcomeCard/>
             <BlockTitle title={translate('home.about')}/>
-            <Box sx={{ marginTop: 2 }} />
+            <Box sx={{ mt: 2 }} />
             <Grid container spacing={{ xs: 1, sm: 2 }} justifyContent="center">
+                <Grid item xs={12} sm={6}>
+                    <CustomCard
+                        icon={CodeIcon}
+                        title={translate('home.aboutTitle')}
+                        body={translate('home.aboutDesc')}
+                    />
+                </Grid>
                 <Grid item xs={12} sm={6}>
                     <CustomCard
                         icon={ProjectIcon}

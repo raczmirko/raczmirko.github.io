@@ -16,6 +16,8 @@
         "welcome": "WELCOME TO",
         "authorName": "MIRKÓ RÁCZ",
         "welcomeMsg": "'s portfolio website!",
+        "aboutDesc": "Being a Computer Science graduate I wanted to share my passion for software development with anyone interested.",
+        "aboutTitle": "Computer Science",
         "about": "What's this site about?",
         "cards": {
             "projects": {
