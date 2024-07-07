@@ -26,7 +26,7 @@ const DisplayCard = ({ title, summary, description, location, date, image, image
             <CardHeader
                 avatar={
                     <Avatar sx={{ bgcolor: Colors.AMBER }}>
-                        R
+                        MR
                     </Avatar>
                 }
                 title={title}
