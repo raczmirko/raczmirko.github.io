@@ -1,0 +1,81 @@
+{
+    "general": {
+        "summary": "Summary"
+    },
+    "menu": {
+        "home": "Home",
+        "about": "About me",
+        "projects": "Projects",
+        "resources": "Resources",
+        "academic": "Academic",
+        "skills": "Skills",
+        "contact": "Contact me"
+    },
+    "home": {
+        "welcome": "WELCOME TO",
+        "authorName": "MIRKÓ RÁCZ",
+        "welcomeMsg": "'s portfolio website!",
+        "about": "What's this site about?",
+        "cards": {
+            "projects": {
+                "title": "Projects",
+                "description": "Explore my personal IT projects in great detail with specifications and images for a concise picture."
+            },
+            "resources": {
+                "title": "Resources",
+                "description": "I wanted to have a place where I can collect useful IT resources, and I thought it may be useful for others too."
+            },
+            "skills": {
+                "title": "Skills",
+                "description": "A dedicated page to list my skills that I have acquired over the years."
+            },
+            "academic": {
+                "title": "Academic contributions",
+                "description": "A collection of my academic contributions such as publications and presentations."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Send me an (encrypted) email!",
+        "getInTouch": "Get in touch with me:",
+        "email": {
+            "title": "My email address",
+            "description": "contact (at) okrim (dot) hu"
+        },
+        "pgp":{
+            "title": "Download or copy my public key:",
+            "subtitle": "You can import this public PGP key to your keychain, and then send me encrypted messages with it.",
+            "download": "Download public key",
+            "copy": "Copy key to clipboard",
+            "asText": "View my PGP public key as text"
+        }
+    },
+    "academic": {
+        "title": "Academic contributions",
+        "summary": "During my academic years I always seeked opportunities to participate in workshops, projects, school events and so on. This page summarizes all my presentations, publications and other academic activities.",
+        "presentations": {
+            "title": "Presentations",
+            "one": {
+                "title": "BirdCam project",
+                "date": "June, 2021",
+                "location": "Dennis Gabor Talent Support gala",
+                "summary": "I presented my BirdCam project, from creating the first prototype to the final publication. My work had positive feedback and I was offere₫ to publish it in the Newsletter of The Hungarian IT Teachers' Association.",
+                "description": "You can see more about my BirdCam project on the Projects page."
+            },
+            "two": {
+                "title": "About our ‘maths for fun’ workshop",
+                "date": "October 20th, 2021",
+                "location": "Dennis Gabor Talent Support gala",
+                "summary": "As a core member of the workshop, I gave a presentation about the workshop’s mentality, the kind of questions we look at together during the sessions and I also mentioned some discrete maths questions that I really enjoyed thinking about during the past year.",
+                "description": "Another riddle I mentioned in my presentation: Egy faárus fából kifaragott betűket árul. Azt, hogy az egyes betűk mennyibe kerülnek nem árulja el, de megadja a következőket: ONE $1-ba kerül, TWO $2-ba kerül, ELEVEN $11-ba kerül. Mennyibe kerül a ‘TWELVE’ szó?"
+            }
+        },
+        "publications": {
+            "title": "Publications"
+        },
+        "achievements": {
+            "title": "Other academic achievements"
+        }
+    }
+}
