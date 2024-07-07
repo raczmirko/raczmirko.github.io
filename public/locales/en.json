@@ -106,7 +106,19 @@
             }
         },
         "achievements": {
-            "title": "Other academic achievements"
+            "title": "Other academic achievements",
+            "one": {
+                "title": "Adhered to my university’s ‘maths for fun’ workshop",
+                "date": "October, 2020",
+                "summary": "During my first few weeks at university I adhered to a mathematics student workshop, where I became one of the core members and I helped organising the workshop sessions for 3 years.",
+                "description": "There were weekly workshop sessions where we talked about discrete maths, calculus and many math-related topics. It was the perfect place to think together, ask questions and become familiar with abstract ideas."
+            },
+            "two": {
+                "title": "Became a Calculus teacher demonstrator",
+                "date": "February, 2021",
+                "summary": "During my second semester I had the honor of becoming a calculus demonstrator, where I worked together with my teacher on developing new materials and organising weekly workshops.",
+                "description": "A demonstrator is like a teacher assistant. I helped with the development of calculus materials with LaTeX and RegEx, we organised weekly workshops and I also managed a school website about the workshop's activity."
+            }
         }
     }
 }
