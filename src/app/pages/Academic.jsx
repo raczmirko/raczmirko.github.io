@@ -8,6 +8,7 @@ import ParticleBackground from "../../components/ParticleBackground";
 import TitleCard from '../../components/TitleCard';
 import Colors from '../../utils/colorUtil';
 import PresentationCards from '../../components/PresentationCards';
+import PublicationCards from '../../components/PublicationCards';
 
 const Academic = () => {
     const { t: translate } = useTranslation();
@@ -37,7 +38,7 @@ const Academic = () => {
                 <Grid item xs={12} sm={12}>
                     <CustomAccordion 
                         title={translate('academic.publications.title')} 
-                        body={PresentationCards}
+                        body={PublicationCards}
                         bgColor={Colors.WHITE}
                         textColor={'black'}
                     />
