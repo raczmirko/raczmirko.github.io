@@ -14,7 +14,7 @@ import { cardWidth } from '../assets/styles';
 import Colors from '../utils/colorUtil';
 import { ExpandMoreButton } from '../assets/cardStyles';
 
-const DisplayCard = ({ title, summary, description, location, date, imagePath, imageAltTxt }) => {
+const DisplayCard = ({ title, summary, description, location, date, image, imageAltTxt }) => {
     const [expanded, setExpanded] = React.useState(false);
 
     const handleExpandClick = () => {
@@ -31,17 +31,9 @@ const DisplayCard = ({ title, summary, description, location, date, imagePath, i
                 }
                 title={title}
                 titleTypographyProps={{ variant: 'h5' }}
-                subheader={date.concat(' ').concat(location ? ', '.concat(location) : '')}
+                subheader={date.concat(' ').concat(location ? ' - '.concat(location) : '')}
                 subheaderTypographyProps={{ variant: 'h6' }}
             />
-            {imagePath && 
-                <CardMedia
-                    component="img"
-                    height="194"
-                    image={imagePath}
-                    alt={imageAltTxt ? imageAltTxt : null}
-                />
-            }
             <CardContent>
                 <Typography paragraph>
                     {summary}
@@ -58,6 +50,13 @@ const DisplayCard = ({ title, summary, description, location, date, imagePath, i
                 </ExpandMoreButton>
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
+                {image && 
+                    <CardMedia
+                        component="img"
+                        image={image}
+                        alt={imageAltTxt ? imageAltTxt : null}
+                    />
+                }
                 <CardContent>
                     <Typography paragraph>{description}</Typography>
                 </CardContent>
