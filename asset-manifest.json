@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.16db395a.css",
-    "main.js": "/static/js/main.ee007151.js",
+    "main.js": "/static/js/main.a9a7ac89.js",
     "static/media/banner.jpg": "/static/media/banner.73a30472beab62d9f1c9.jpg",
+    "static/media/birdcam_2.jpg": "/static/media/birdcam_2.107256e945046621a23d.jpg",
     "static/media/birdcam_1.jpg": "/static/media/birdcam_1.dccadd831d555c7ca236.jpg",
     "static/media/presentation_maths_2.jpg": "/static/media/presentation_maths_2.1992737348277011a021.jpg",
     "static/media/presentation_databases.jpg": "/static/media/presentation_databases.0fd7e78f8cb0ef81a2d0.jpg",
@@ -12,10 +13,10 @@
     "static/media/okrim_public_key.asc": "/static/media/okrim_public_key.aa26884c699d97ba8cc8.asc",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.16db395a.css.map": "/static/css/main.16db395a.css.map",
-    "main.ee007151.js.map": "/static/js/main.ee007151.js.map"
+    "main.a9a7ac89.js.map": "/static/js/main.a9a7ac89.js.map"
   },
   "entrypoints": [
     "static/css/main.16db395a.css",
-    "static/js/main.ee007151.js"
+    "static/js/main.a9a7ac89.js"
   ]
 }
