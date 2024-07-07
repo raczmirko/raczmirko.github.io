@@ -27,14 +27,14 @@ export const cardIconSize = {
   md: '80px' // medium and up
 };
 export const cardTitleSize = {
-  xs: '26px', // mobile
-  sm: '26px', // small screens
-  md: '30px' // medium and up
+  xs: '1.5rem', // mobile
+  sm: '1.8rem', // small screens
+  md: '2rem' // medium and up
 };
 export const titleCardTitleSize = {
-  xs: '30px', // mobile
-  sm: '36px', // small screens
-  md: '50px' // medium and up
+  xs: '1.5rem', // mobile
+  sm: '1.8rem', // small screens
+  md: '2rem' // medium and up
 };
 export const titleSize = {
   xs: '50px', // mobile

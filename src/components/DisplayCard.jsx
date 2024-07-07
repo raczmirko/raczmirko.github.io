@@ -43,7 +43,7 @@ const DisplayCard = ({ title, summary, description, location, date, imagePath, i
                 />
             }
             <CardContent>
-                <Typography variant="body2" color="text.secondary">
+                <Typography paragraph>
                     {summary}
                 </Typography>
             </CardContent>
