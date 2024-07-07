@@ -59,9 +59,37 @@
             "one": {
                 "title": "BirdCam project",
                 "date": "June, 2021",
-                "location": "Dennis Gabor Talent Suppor Center gala",
-                "summary": "I presented my BridCam project, from creating the first prototype to the final publication.",
+                "location": "Dennis Gabor Talent Support gala",
+                "summary": "I presented my BirdCam project, from creating the first prototype to the final publication. My work had positive feedback and I was offere₫ to publish it in the Newsletter of The Hungarian IT Teachers' Association.",
                 "description": "You can see more about my BirdCam project on the Projects page."
+            },
+            "two": {
+                "title": "About our ‘maths for fun’ workshop",
+                "date": "October 20th, 2021",
+                "location": "Dennis Gabor Talent Support gala",
+                "summary": "As a core member of the workshop, I gave a presentation about the workshop’s mentality, the kind of questions we look at together during the sessions and I also mentioned some discrete maths questions that I really enjoyed thinking about during the past year.",
+                "description": "Another riddle I mentioned in my presentation: A street vendor sells letters carved out of wood. They do not reveal how much each letter costs, but he does provide the following information: ONE costs $1, TWO costs $2, ELEVEN costs $11. How much does the word 'TWELVE' cost?"
+            },
+            "three": {
+                "title": "My favourite math exercises of this year’s workshop",
+                "date": "June 23rd, 2022",
+                "location": "Dennis Gabor Talent Support gala",
+                "summary": "I represented our maths workshop, where I talked about some of my favourite problems, questions and exercises of the year.",
+                "description": "Some of the topics I touched were the proof that Cantor's set's cardinality is Continuum, the importance of the precise use of terms when talking about maths, my hypothesis-tester application I wrote and demonstrated and the mathematics of the Rubik's cube."
+            },
+            "four": {
+                "title": "How does a computer solve the Rubik’s cube?",
+                "date": "December, 2022",
+                "location": "Maths for fun workshop",
+                "summary": "I held one of the math workshop sessions with a one hour long presentation about the algorithms of twisty puzzles, the algorithmic approach of the solution for computer programs, the principles used for solving a cube and so on.",
+                "description": "Some parts of my presentation: What is a Rubik's cube, how does one solve a Rubik's cube, A* search algorithm, notations, lower- and upper bound, God's number, Thistlethwaithe's algorithm, Korf algorithm, solving the cube with computers."
+            },
+            "five": {
+                "title": "3 reasons to learn databases",
+                "date": "June 19th, 2024",
+                "location": "Dennis Gabor Talent Support gala",
+                "summary": " I gave a presentation about the importance of SQL and relational databases from a software developer’s point of view, I gave some practical examples where such knowledge is beneficial, and I presented the database structure of my BSc diploma work, along with its constraints and implementation.",
+                "description": ""
             }
         },
         "publications": {
