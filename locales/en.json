@@ -16,6 +16,8 @@
         "welcome": "WELCOME TO",
         "authorName": "MIRKÓ RÁCZ",
         "welcomeMsg": "'s portfolio website!",
+        "aboutDesc": "Being a Computer Science graduate I wanted to share my passion for CS with anyone interested.",
+        "aboutTitle": "Computer Science",
         "about": "What's this site about?",
         "cards": {
             "projects": {
@@ -104,7 +106,49 @@
             }
         },
         "achievements": {
-            "title": "Other academic achievements"
+            "title": "Other academic achievements",
+            "one": {
+                "title": "Adhered to my university’s ‘maths for fun’ workshop",
+                "date": "October, 2020",
+                "summary": "During my first few weeks at university I adhered to a mathematics student workshop, where I became one of the core members and I helped organising the workshop sessions for 3 years.",
+                "description": "There were weekly workshop sessions where we talked about discrete maths, calculus and many math-related topics. It was the perfect place to think together, ask questions and become familiar with abstract ideas."
+            },
+            "two": {
+                "title": "Became a Calculus teacher demonstrator",
+                "date": "February, 2021",
+                "summary": "During my second semester I had the honor of becoming a calculus demonstrator, where I worked together with my teacher on developing new materials and organising weekly workshops.",
+                "description": "A demonstrator is like a teacher assistant. I helped with the development of calculus materials with LaTeX and RegEx, we organised weekly workshops and I also managed a school website about the workshop's activity."
+            }
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My soft and hard skills",
+        "soft": "Soft skills",
+        "hard": "Hard skills",
+        "languages": {
+            "name": "Languages",
+            "description": "Fluent in English (C1), French (C1) and Hungarian (native)."
+        },
+        "teamwork": {
+            "name": "Teamwork",
+            "description": "I enjoy collaborating with others to achieve common goals."
+        },
+        "learning": {
+            "name": "Learning New Technologies",
+            "description": "I am passionate about staying updated with the latest technological advancements."
+        },
+        "curiosity": {
+            "name": "Curiosity",
+            "description": "I have a strong desire to understand how things work and to explore new ideas."
+        },
+        "teaching": {
+            "name": "Teaching",
+            "description": "I love explaining concepts and helping others learn and grow."
+        },
+        "precision": {
+            "name": "Precision and Maximalism",
+            "description": "I strive for perfection and pay great attention to detail in my work."
         }
     }
 }
