@@ -1,0 +1,12 @@
+{
+    "skills": [
+        { "name": "Java", "icon": "Code" },
+        { "name": "JavaScript", "icon": "Javascript" },
+        { "name": "Spring", "icon": "Code" },
+        { "name": "React", "icon": "Code" },
+        { "name": "GitHub", "icon": "GitHub" },
+        { "name": "Object-oriented programming", "icon": "DataObject" },
+        { "name": "SQL", "icon": "DataArray" },
+        { "name": "WEB development", "icon": "Html" }
+    ]
+}
