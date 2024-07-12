@@ -120,5 +120,11 @@
                 "description": "A demonstrator is like a teacher assistant. I helped with the development of calculus materials with LaTeX and RegEx, we organised weekly workshops and I also managed a school website about the workshop's activity."
             }
         }
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My soft and hard skills",
+        "soft": "Soft skills",
+        "hard": "Hard skills"
     }
 }
