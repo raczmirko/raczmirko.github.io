@@ -7,7 +7,7 @@ import { paragraphSize } from '../assets/styles';
 const SkillChips = () => {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-      {skillsData.skills.map((skill, index) => {
+      {skillsData.hardSkills.map((skill, index) => {
         const IconComponent = Icons[skill.icon];
         return (
           <Chip

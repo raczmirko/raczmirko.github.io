@@ -1,12 +1,25 @@
 {
-    "skills": [
+    "hardSkills": [
         { "name": "Java", "icon": "Code" },
-        { "name": "JavaScript", "icon": "Javascript" },
         { "name": "Spring", "icon": "Code" },
+        { "name": "JavaScript", "icon": "Javascript" },
         { "name": "React", "icon": "Code" },
         { "name": "GitHub", "icon": "GitHub" },
+        { "name": "Git", "icon": "GitHub" },
         { "name": "Object-oriented programming", "icon": "DataObject" },
         { "name": "SQL", "icon": "DataArray" },
-        { "name": "WEB development", "icon": "Html" }
+        { "name": "T-SQL", "icon": "DataArray" },
+        { "name": "Microsoft SQL Server", "icon": "DataArray" },
+        { "name": "WEB development", "icon": "Html" },
+        { "name": "RegEx", "icon": "Subtitles" },
+        { "name": "Linux", "icon": "Terminal" }
+    ],
+    "softSkills": [
+        { "name": "skills.languages.name", "description": "skills.languages.description", "icon": "Language" },
+        { "name": "skills.teamwork.name", "description": "skills.teamwork.description", "icon": "Group" },
+        { "name": "skills.learning.name", "description": "skills.learning.description", "icon": "Autorenew" },
+        { "name": "skills.curiosity.name", "description": "skills.curiosity.description", "icon": "Search" },
+        { "name": "skills.teaching.name", "description": "skills.teaching.description", "icon": "School" },
+        { "name": "skills.precision.name", "description": "skills.precision.description", "icon": "Build" }
     ]
 }
