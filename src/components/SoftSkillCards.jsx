@@ -3,6 +3,7 @@ import { Grid } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import skillsData from '../assets/skills.json';
 import CustomCard from './CustomCard';
+import Colors from '../utils/colorUtil';
 
 const SoftSkillCards = () => {
     const { t: translate } = useTranslation();
@@ -16,6 +17,7 @@ const SoftSkillCards = () => {
                             icon={IconComponent ? IconComponent : null}
                             title={translate(skill.name)}
                             body={translate(skill.description)}
+                            bgColor={Colors.TEAL}
                         />
                     </Grid>
                 )}

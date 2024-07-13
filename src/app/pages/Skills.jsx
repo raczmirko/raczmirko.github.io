@@ -15,7 +15,7 @@ const Skills = () => {
             <Container sx={{position: 'absolute', zIndex:-1}}>
                 <ParticleBackground />
             </Container>
-            <TitleCard title={translate('skills.title')} subtitle={translate('skills.subtitle')} bgColor={Colors.TEAL}/>
+            <TitleCard title={translate('skills.title')} bgColor={Colors.CORAL}/>
             <BlockTitle title={translate('skills.hard')}/>
             <Box sx={{ mt: 2 }} />
             <SkillChips />
