@@ -150,5 +150,36 @@
             "name": "Precise work",
             "description": "I strive for perfection and pay great attention to detail in my work."
         }
+    },
+    "about": {
+        "title": "About",
+        "subtitle": "Things about me, my studies and my professional life.",
+        "whoami": "Who am I?",
+        "studies": "Studies",
+        "work": "Work",
+        "whoami1": {
+            "title": "Who am I?",
+            "description": "I am a Hungarian computer science graduate (since 2024) who strives to become a better developer and I chose to create this creative outlet to share my thoughts and work with anyone interested (and to learn React whilst creating something useful)."
+        },
+        "whoami2": {
+            "title": "What is this site for?",
+            "description": "I love building stuff. I appreciate the process of creating something that solves a problem, and seeing it evolve through every step of the way."
+        },
+        "studies1": {
+            "title": "Computer Science BSc (2020-2024)",
+            "description": "Dennis Gabor University (Budapest), Software development specialization."
+        },
+        "studies2": {
+            "title": "Computer Science MSc (2024-26)",
+            "description": "Dennis Gabor University (Budapest), Drone technology specialization."
+        },
+        "work1": {
+            "title": "Qlex Cloud | Belgium | 08/2023 - 10/2023",
+            "description": " Software developer intern: I worked on an eQMS system for pharmaneutical professionals, following strict ISO standards and industry practices. "
+        },
+        "work2": {
+            "title": "ArchX | Belgium | 02/2024 - NOW",
+            "description": "Software developer intern: I help with the development of a project management software (SaaS) for architects."
+        }
     }
 }

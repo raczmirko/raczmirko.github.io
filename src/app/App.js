@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Academic from './pages/Academic';
 import Skills from './pages/Skills';
+import About from './pages/About';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           />
           <Route path="/skills" 
             element={<Skills/>}
+          />
+          <Route path="/about" 
+            element={<About/>}
           />
         </Routes>
       </Box>
