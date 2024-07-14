@@ -166,12 +166,19 @@
             "description": "I love building stuff. I appreciate the process of creating something that solves a problem, and seeing it evolve through every step of the way."
         },
         "studies1": {
-            "title": "Computer Science BSc (2020-2024)",
-            "description": "Dennis Gabor University (Budapest), Software development specialization."
+            "title": "Computer Science BSc",
+            "date": "September 2020 - January 2024",
+            "location": "Budapest, Dennis Gabor University",
+            "position": "Software development specialization.",
+            "description": "I had an active academic life during my studies: I was a calculus demonstrator, I was member of numerous student workshops, I regularly gave presentations on school events (more on the academics page). My diploma work was titled 'Creating a product-rating database server' which was well-received by the jury and got an Excellent grade.'",
+            "tags": ["Calculus", "Statistics", "Databases", "Algorithms", "Database servers", "Android development", "Java", "OOP", "Linux"]
         },
         "studies2": {
-            "title": "Computer Science MSc (2024-26)",
-            "description": "Dennis Gabor University (Budapest), Drone technology specialization."
+            "title": "Computer Science MSc",
+            "date": "September 2024 - ",
+            "location": "Budapest, Dennis Gabor University",
+            "position": "Drone-technology specialization.",
+            "description": "I enjoyed my BSc studies so much that it was no question if I wanted to continue my academic years. I chose drone-technology because I think it is a fascinating topic, and I felt it would be a good challenge, especially with the maths-heavy image analysis aspect of this specialization."
         },
         "work1": {
             "title": "Qlex Cloud [qlex.cloud]",
