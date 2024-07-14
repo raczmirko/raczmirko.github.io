@@ -82,17 +82,24 @@ export default function AboutTabs() {
       <CustomTabPanel value={value} index={1}>
       <Grid container spacing={{ xs: 1, sm: 2 }} justifyContent="center">
             <Grid item xs={12} sm={12}>
-                <CustomCard 
-                    title={translate('about.studies2.title')} 
+                <DetailedCustomCard 
+                    title={translate('about.studies2.title')}
+                    date={translate('about.studies2.date')}
+                    location={translate('about.studies2.location')}
+                    position={translate('about.studies2.position')}
                     body={translate('about.studies2.description')}
                     icon={SchoolIcon}
                     bgColor={Colors.VERMILLION}
                 />
             </Grid>
             <Grid item xs={12} sm={12}>
-                <CustomCard 
-                    title={translate('about.studies1.title')} 
+                <DetailedCustomCard 
+                    title={translate('about.studies1.title')}
+                    date={translate('about.studies1.date')}
+                    location={translate('about.studies1.location')}
+                    position={translate('about.studies1.position')}
                     body={translate('about.studies1.description')}
+                    tags={translate('about.studies1.tags', { returnObjects: true })}
                     icon={SchoolIcon}
                     bgColor={Colors.VERMILLION}
                 />
