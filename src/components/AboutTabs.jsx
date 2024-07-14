@@ -11,6 +11,7 @@ import CustomCard from './CustomCard';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import SchoolIcon from '@mui/icons-material/School';
 import EngineeringIcon from '@mui/icons-material/Engineering';
+import DetailedCustomCard from './DetailedCustomCard';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -101,17 +102,25 @@ export default function AboutTabs() {
       <CustomTabPanel value={value} index={2}>
         <Grid container spacing={{ xs: 1, sm: 2 }} justifyContent="center">
             <Grid item xs={12} sm={12}>
-                <CustomCard 
-                    title={translate('about.work2.title')} 
+                <DetailedCustomCard 
+                    title={translate('about.work2.title')}
+                    date={translate('about.work2.date')}
+                    location={translate('about.work2.location')}
+                    position={translate('about.work2.position')}
                     body={translate('about.work2.description')}
+                    tags={translate('about.work2.tags', { returnObjects: true })}
                     icon={EngineeringIcon}
                     bgColor={Colors.VERMILLION}
                 />
             </Grid>
             <Grid item xs={12} sm={12}>
-                <CustomCard 
+                <DetailedCustomCard 
                     title={translate('about.work1.title')} 
+                    date={translate('about.work1.date')}
+                    location={translate('about.work1.location')}
+                    position={translate('about.work1.position')}
                     body={translate('about.work1.description')}
+                    tags={translate('about.work1.tags', { returnObjects: true })}
                     icon={EngineeringIcon}
                     bgColor={Colors.VERMILLION}
                 />

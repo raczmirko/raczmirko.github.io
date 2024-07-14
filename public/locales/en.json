@@ -174,12 +174,20 @@
             "description": "Dennis Gabor University (Budapest), Drone technology specialization."
         },
         "work1": {
-            "title": "Qlex Cloud | Belgium | 08/2023 - 10/2023",
-            "description": " Software developer intern: I worked on an eQMS system for pharmaneutical professionals, following strict ISO standards and industry practices. "
+            "title": "Qlex Cloud [qlex.cloud]",
+            "date": "08/2023 - 10/2023",
+            "location": "Remote, Belgium",
+            "position": "Software developer intern (Fullstack)",
+            "description": "I worked on an eQMS system for pharmaceutical professionals, following strict ISO standards and industry practices. Amongst others, I worked on CD/CI tasks, queries with Spring JPA, frontend development.",
+            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
         },
         "work2": {
-            "title": "ArchX | Belgium | 02/2024 - NOW",
-            "description": "Software developer intern: I help with the development of a project management software (SaaS) for architects."
+            "title": "ArchX [archx.eu]",
+            "date": "02/2024 - NOW",
+            "location": "Remote, Belgium",
+            "position": "Software developer intern (Fullstack)",
+            "description": "I worked on a project management software (SaaS) for architects. My work mostly revolved around building RESTful APIs, building filters for dashboarding purposes and frontend development.",
+            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
         }
     }
 }
