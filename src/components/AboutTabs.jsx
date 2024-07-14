@@ -12,6 +12,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import SchoolIcon from '@mui/icons-material/School';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import DetailedCustomCard from './DetailedCustomCard';
+import LinkChips from './LinkChips';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -76,6 +77,9 @@ export default function AboutTabs() {
                     icon={PsychologyIcon}
                     bgColor={Colors.VERMILLION}
                 />
+            </Grid>
+            <Grid item xs={12} sm={12}>
+                <LinkChips/>
             </Grid>
         </Grid>
       </CustomTabPanel>
