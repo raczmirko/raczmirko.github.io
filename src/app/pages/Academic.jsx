@@ -28,6 +28,7 @@ const Academic = () => {
                     <JustifiedTextCard text={translate('academic.summary')}/>
                 </Grid>
             </Grid>
+            <Box sx={{ marginTop: 2 }} />
             <Grid container spacing={{ xs: 1, sm: 2 }} justifyContent="center">
                 <Grid item xs={12} sm={12}>
                     <CustomAccordion 
