@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Academic from './pages/Academic';
 import Skills from './pages/Skills';
 import About from './pages/About';
+import Resources from './pages/Resources';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           />
           <Route path="/about" 
             element={<About/>}
+          />
+          <Route path="/resources" 
+            element={<Resources/>}
           />
         </Routes>
       </Box>

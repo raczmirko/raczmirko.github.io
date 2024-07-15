@@ -1,0 +1,74 @@
+[
+    {
+      "Category": "GitHub",
+      "Name": "GitHub Pages",
+      "Link": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      "Description": "Official GitHub Docs for creating a GitHub Pages site."
+    },
+    {
+      "Category": "Spring",
+      "Name": "spring initializr",
+      "Link": "https://start.spring.io/",
+      "Description": "A tool to generate Java Spring boilerplate code."
+    },
+    {
+      "Category": "Spring",
+      "Name": "Spring Academy",
+      "Link": "https://spring.academy/",
+      "Description": "Official Spring Academy website that has great courses on Spring."
+    },
+    {
+      "Category": "Git",
+      "Name": "Conventional Commits",
+      "Link": "https://www.conventionalcommits.org/en/v1.0.0/",
+      "Description": "A specification for adding human and machine readable meaning to commit messages."
+    },
+    {
+      "Category": "Spring",
+      "Name": "Spring JPA Query Methods",
+      "Link": "https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#jpa.query-methods.query-creation",
+      "Description": "Official Docs on Spring JPA queries."
+    },
+    {
+      "Category": "Spring",
+      "Name": "Spring Guides",
+      "Link": "https://spring.io/guides",
+      "Description": "Official Spring Guides, there is a guide for almost anything really."
+    },
+    {
+      "Category": "React",
+      "Name": "Deploy A Routed App",
+      "Link": "https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/",
+      "Description": "Guide on how to make a routed React app work when published via GitHub Pages."
+    },
+    {
+      "Category": "React",
+      "Name": "react-gh-pages",
+      "Link": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      "Description": "A tool for deploying a React App (created using create-react-app) to GitHub Pages."
+    },
+    {
+      "Category": "React",
+      "Name": "React Docs",
+      "Link": "https://react.dev/",
+      "Description": "Official React documentation."
+    },
+    {
+      "Category": "React",
+      "Name": "MUI X",
+      "Link": "https://mui.com/x/introduction/",
+      "Description": "MUI X is a collection of advanced React UI components for complex use cases."
+    },
+    {
+      "Category": "React",
+      "Name": "bulletproof-react",
+      "Link": "https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md",
+      "Description": "Guidelines to structuring React projects."
+    },
+    {
+        "Category": "React",
+        "Name": "MUI",
+        "Link": "https://mui.com/material-ui/getting-started/",
+        "Description": "Material UI is an open-source React component library that implements Google's Material Design."
+    }
+  ]
