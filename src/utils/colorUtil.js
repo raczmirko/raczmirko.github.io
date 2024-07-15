@@ -16,7 +16,7 @@ const Colors = {
     AMBER: '#ffbf00',
     //----------//
     CYAN: '#00ffff',
-    VERMILLION: '#ff4500',
+    SPANISH_ORANGE: '#E86100',
     //----------//
     PINK: '#ffc0cb',
     LIME: '#00ff00',

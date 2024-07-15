@@ -67,7 +67,7 @@ export default function AboutTabs() {
                     title={translate('about.whoami1.title')} 
                     body={translate('about.whoami1.description')}
                     icon={EmojiPeopleIcon}
-                    bgColor={Colors.VERMILLION}
+                    bgColor={Colors.SPANISH_ORANGE}
                 />
             </Grid>
             <Grid item xs={12} sm={12}>
@@ -75,7 +75,7 @@ export default function AboutTabs() {
                     title={translate('about.whoami2.title')} 
                     body={translate('about.whoami2.description')}
                     icon={PsychologyIcon}
-                    bgColor={Colors.VERMILLION}
+                    bgColor={Colors.SPANISH_ORANGE}
                 />
             </Grid>
             <Grid item xs={12} sm={12}>
@@ -93,7 +93,7 @@ export default function AboutTabs() {
                     position={translate('about.studies2.position')}
                     body={translate('about.studies2.description')}
                     icon={SchoolIcon}
-                    bgColor={Colors.VERMILLION}
+                    bgColor={Colors.SPANISH_ORANGE}
                 />
             </Grid>
             <Grid item xs={12} sm={12}>
@@ -105,7 +105,7 @@ export default function AboutTabs() {
                     body={translate('about.studies1.description')}
                     tags={translate('about.studies1.tags', { returnObjects: true })}
                     icon={SchoolIcon}
-                    bgColor={Colors.VERMILLION}
+                    bgColor={Colors.SPANISH_ORANGE}
                 />
             </Grid>
         </Grid>
@@ -121,7 +121,7 @@ export default function AboutTabs() {
                     body={translate('about.work2.description')}
                     tags={translate('about.work2.tags', { returnObjects: true })}
                     icon={EngineeringIcon}
-                    bgColor={Colors.VERMILLION}
+                    bgColor={Colors.SPANISH_ORANGE}
                 />
             </Grid>
             <Grid item xs={12} sm={12}>
@@ -133,7 +133,7 @@ export default function AboutTabs() {
                     body={translate('about.work1.description')}
                     tags={translate('about.work1.tags', { returnObjects: true })}
                     icon={EngineeringIcon}
-                    bgColor={Colors.VERMILLION}
+                    bgColor={Colors.SPANISH_ORANGE}
                 />
             </Grid>
         </Grid>
