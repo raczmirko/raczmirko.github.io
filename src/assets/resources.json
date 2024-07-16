@@ -1,74 +1,177 @@
 [
     {
       "Category": "GitHub",
+      "Language": "EN",
       "Name": "GitHub Pages",
       "Link": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
       "Description": "Official GitHub Docs for creating a GitHub Pages site."
     },
     {
+      "Category": "Java",
+      "Language": "EN",
+      "Name": "JavaConceptOfTheDay",
+      "Link": "https://javaconceptoftheday.com/",
+      "Description": "A software development-related website full of cheatsheets, interview questions, quizzes."
+    },
+    {
+      "Category": "Java",
+      "Language": "HU",
+      "Name": "A&K akadémia Java",
+      "Link": "https://www.youtube.com/playlist?list=PL1WwhU4dv6tG8C8aGca5IxZliVTjvtweh",
+      "Description": "A&K akadémia Java programozás kezdőknek YouTube lejátszási lista."
+    },
+    {
       "Category": "Spring",
+      "Language": "EN",
       "Name": "spring initializr",
       "Link": "https://start.spring.io/",
       "Description": "A tool to generate Java Spring boilerplate code."
     },
     {
       "Category": "Spring",
+      "Language": "EN",
       "Name": "Spring Academy",
       "Link": "https://spring.academy/",
       "Description": "Official Spring Academy website that has great courses on Spring."
     },
     {
       "Category": "Git",
+      "Language": "EN",
       "Name": "Conventional Commits",
       "Link": "https://www.conventionalcommits.org/en/v1.0.0/",
       "Description": "A specification for adding human and machine readable meaning to commit messages."
     },
     {
       "Category": "Spring",
+      "Language": "EN",
       "Name": "Spring JPA Query Methods",
       "Link": "https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#jpa.query-methods.query-creation",
       "Description": "Official Docs on Spring JPA queries."
     },
     {
       "Category": "Spring",
+      "Language": "EN",
       "Name": "Spring Guides",
       "Link": "https://spring.io/guides",
       "Description": "Official Spring Guides, there is a guide for almost anything really."
     },
     {
       "Category": "React",
+      "Language": "EN",
       "Name": "Deploy A Routed App",
       "Link": "https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/",
       "Description": "Guide on how to make a routed React app work when published via GitHub Pages."
     },
     {
       "Category": "React",
+      "Language": "EN",
       "Name": "react-gh-pages",
       "Link": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
       "Description": "A tool for deploying a React App (created using create-react-app) to GitHub Pages."
     },
     {
       "Category": "React",
+      "Language": "EN",
       "Name": "React Docs",
       "Link": "https://react.dev/",
       "Description": "Official React documentation."
     },
     {
       "Category": "React",
+      "Language": "EN",
       "Name": "MUI X",
       "Link": "https://mui.com/x/introduction/",
       "Description": "MUI X is a collection of advanced React UI components for complex use cases."
     },
     {
       "Category": "React",
+      "Language": "EN",
       "Name": "bulletproof-react",
       "Link": "https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md",
       "Description": "Guidelines to structuring React projects."
     },
     {
         "Category": "React",
+        "Language": "EN",
         "Name": "MUI",
         "Link": "https://mui.com/material-ui/getting-started/",
         "Description": "Material UI is an open-source React component library that implements Google's Material Design."
+    },
+    {
+        "Category": "WEB",
+        "Language": "EN",
+        "Name": "IETF",
+        "Link": "https://www.ietf.org/",
+        "Description": "Official website of the IETF: Internet Engineering Task Force, founded in 1986, is the premier standards development organization (SDO) for the Internet."
+    },
+    {
+        "Category": "WEB",
+        "Language": "EN",
+        "Name": "Water.css",
+        "Link": "https://watercss.kognise.dev/",
+        "Description": "A classless CSS collection to make simple websites a little nicer."
+    },
+    {
+        "Category": "WEB",
+        "Language": "EN",
+        "Name": "Bahunya.css",
+        "Link": "https://hakanalpay.com/bahunya/index.html",
+        "Description": "A classless CSS framework with a navbar and dark styling."
+    },
+    {
+        "Category": "WEB",
+        "Language": "EN",
+        "Name": "HTML elements reference",
+        "Link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+        "Description": "Official Mozzilla Developer Docs for HTML element references."
+    },
+    {
+        "Category": "WEB",
+        "Language": "EN",
+        "Name": "Google Font Icons",
+        "Link": "https://fonts.google.com/icons",
+        "Description": "A vast library of free icons."
+    },
+    {
+        "Category": "Linux",
+        "Language": "HU",
+        "Name": "Magyar Linux",
+        "Link": "https://magyarlinux.hu/",
+        "Description": "Egy Linux témájú blog magyarul, ami hasznos cikkekkel frissül rendszeresen."
+    },
+    {
+        "Category": "T-SQL",
+        "Language": "EN",
+        "Name": "T-SQL reference",
+        "Link": "https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16",
+        "Description": "Official Microsoft reference for T-SQL. Exceptional reference, there is an answer for almost everything T-SQL-related."
+    },
+    {
+        "Category": "Mock Data",
+        "Language": "EN",
+        "Name": "Mockaroo",
+        "Link": "https://mockaroo.com/",
+        "Description": "Mockaroo is a really useful tool for generating realistic mock data in SQL or JSON for any testing purposes."
+    },
+    {
+        "Category": "Computer Science",
+        "Language": "HU",
+        "Name": "BME videotórium",
+        "Link": "https://bme.videotorium.hu/",
+        "Description": "A BME különböző mérnökinformatikával-kapcsolatos kurzusainak videófelvételei. Komplett kurzusokat lehet végig nézni teljesen ingyenesen."
+    },
+    {
+        "Category": "Computer Science",
+        "Language": "HU",
+        "Name": "KMOOC",
+        "Link": "https://www.kmooc.uni-obuda.hu/login",
+        "Description": "Kárpát-medencei Online Oktatási Centrum, avagy egy magyar MOOC amelyet az Óbudai Egyetem működtet, minőségi egyetemi kurzusok tárháza."
+    },
+    {
+        "Category": "Computer Science",
+        "Language": "EN",
+        "Name": "Developer Roadmaps",
+        "Link": "https://roadmap.sh/roadmaps",
+        "Description": "A website that offers different development-related roadmaps, which is incredibly useful, especially to keep track of learning progress, and to have an organised learning path."
     }
   ]
