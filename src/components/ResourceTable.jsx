@@ -3,12 +3,14 @@ import Box from '@mui/material/Box';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import resources from '../assets/resources.json';
 import { Link } from '@mui/material';
+import LanguageIcon from '@mui/icons-material/Language';
 
 const ResourceTable = () => {
     
     const columns = [
         { field: 'Category', headerName: 'Category', width: 150 },
         { field: 'Name', headerName: 'Name', width: 200 },
+        { field: 'Language', headerName: <LanguageIcon/>, width: 50 },
         {
           field: 'Link',
           headerName: 'Link',
