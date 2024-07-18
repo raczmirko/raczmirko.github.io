@@ -1,10 +1,10 @@
+import Box from '@mui/material/Box';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
 import ParticleBackground from "../../components/ParticleBackground";
+import ResourceComponent from "../../components/ResourceComponent";
 import TitleCard from '../../components/TitleCard';
 import Colors from '../../utils/colorUtil';
-import ResourceTable from "../../components/ResourceTable";
-import Box from '@mui/material/Box';
 
 const Resources = () => {
     const { t: translate } = useTranslation();
@@ -21,7 +21,7 @@ const Resources = () => {
                 textColor={'black'}
             />
             <Box sx={{ mb:1 }}/>
-            <ResourceTable/>
+            <ResourceComponent/>
         </Container>
     )
 }
