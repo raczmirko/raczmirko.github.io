@@ -1,9 +1,9 @@
-import * as React from 'react';
+import LanguageIcon from '@mui/icons-material/Language';
+import { Link } from '@mui/material';
 import Box from '@mui/material/Box';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
+import * as React from 'react';
 import resources from '../assets/resources.json';
-import { Link } from '@mui/material';
-import LanguageIcon from '@mui/icons-material/Language';
 
 const ResourceTable = () => {
     

@@ -1,6 +1,9 @@
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
-import Grid from '@mui/material/Grid';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import SchoolIcon from '@mui/icons-material/School';
 import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 import PropTypes from 'prop-types';
@@ -8,9 +11,6 @@ import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import Colors from '../utils/colorUtil';
 import CustomCard from './CustomCard';
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import SchoolIcon from '@mui/icons-material/School';
-import EngineeringIcon from '@mui/icons-material/Engineering';
 import DetailedCustomCard from './DetailedCustomCard';
 import LinkChips from './LinkChips';
 
