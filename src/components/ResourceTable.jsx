@@ -10,7 +10,12 @@ const ResourceTable = () => {
     const columns = [
         { field: 'Category', headerName: 'Category', width: 150 },
         { field: 'Name', headerName: 'Name', width: 200 },
-        { field: 'Language', headerName: <LanguageIcon/>, width: 50 },
+        {
+            field: 'Language',
+            headerName: 'Language',
+            width: 50,
+            renderHeader: () => <LanguageIcon />,
+        },
         {
           field: 'Link',
           headerName: 'Link',
