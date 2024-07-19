@@ -114,7 +114,7 @@ const DetailedCustomCard = ({ icon: Icon, title, location, date, position, body,
                         }
                         {/* TAGS */}
                         {tags &&
-                            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+                            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 1 }}>
                                 {tags.map((tag, index) => {
                                     return (
                                     <Chip
