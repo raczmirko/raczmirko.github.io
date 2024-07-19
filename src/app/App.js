@@ -11,6 +11,7 @@ import Academic from './pages/Academic';
 import Skills from './pages/Skills';
 import About from './pages/About';
 import Resources from './pages/Resources';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           />
           <Route path="/resources" 
             element={<Resources/>}
+          />
+          <Route path="/projects" 
+            element={<Projects/>}
           />
         </Routes>
       </Box>

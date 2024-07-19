@@ -1,0 +1,362 @@
+[
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Log Change Email Notifier",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "log-change-email-notifier",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    },
+    {
+        "title": "Birdcam",
+        "summary": "A Spring application that examines a text file and if lines were added to the end of the file then it sends the new lines via email. Designed to work with LOG files that append lines in a file and never modify previous entries.",
+        "motivation": "I have several personal projects that use log files. Many of these projects are running on headless Raspberry Pi micro computers, thus taking a look at these logs would mean connecting to them via SSH, getting to the log files, inspecting them, trying to remember what are the new lines… To fix this issue I decided to create a Java / Spring application that reads a log file, compares the number of lines in the file to the prviously read number of lines, and if there are new ones, it sends an email notification to any given email address. This app can then be scheduled to run periodically to always have updates on a specific log file.",
+        "functionality": "This is a wireframe that can be further modified for any specific usage. What this application does is it runs and checks if a specific text file has new lines appended at the end, and if it has then it sends an email notification with the new lines as the email’s body. It is important that this application is meant to work with log files, meaning that new lines are linearly appended to the file’s end, and nothing is ever modified. When the script is launched from a terminal, the target email address and log file can be given as parameters for easy configuration. The FROM email address can be configured in the application.properties file and is currently set for gmail addresses.",
+        "challenges": [
+            "I had to make sure the application is easily configured and is as lightweight as possible (to be run from a terminal with configurable options).",
+            "I had to make sure the file reading and manipulation works exactly as expected."
+        ],
+        "futureImprovements": [
+            "I was thinking about making it possible to use the application with multiple log files, but for now I just settled on using different instances of the app running for each log file."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "Spring Boot Starter Mail dependency for sending the mails"],
+        "folder": "birdcam",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/log-change-email-notifier"}
+        ]
+    }
+]
