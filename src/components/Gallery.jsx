@@ -1,6 +1,5 @@
-// Gallery.jsx
 import CloseIcon from '@mui/icons-material/Close';
-import { Box, IconButton, ImageList, ImageListItem, Modal } from '@mui/material';
+import { Backdrop, Box, IconButton, ImageList, ImageListItem, Modal } from '@mui/material';
 import React, { useState } from 'react';
 
 const Gallery = ({ images, title }) => {
@@ -19,10 +18,10 @@ const Gallery = ({ images, title }) => {
 
     return (
         <>
-            <ImageList cols={2} rowHeight={164}>
+            <ImageList cols={2} gap={10}>
                 {images.map((img, index) => (
                     <ImageListItem key={index} onClick={() => handleOpen(img)}>
-                        <img src={img} alt={title} style={{ cursor: 'pointer', objectFit: 'cover', width: '100%', height: '100%' }} />
+                        <img src={img} alt={title} style={{ margin: 10, cursor: 'pointer', objectFit: 'cover', width: '90%', height: '100%', outline: '2px solid white' }} />
                     </ImageListItem>
                 ))}
             </ImageList>
@@ -30,6 +29,12 @@ const Gallery = ({ images, title }) => {
             <Modal
                 open={open}
                 onClose={handleClose}
+                slots={{ backdrop: Backdrop }}
+                slotProps={{
+                    backdrop: {
+                        timeout: 500,
+                    },
+                }}
             >
                 <Box sx={{
                     position: 'absolute',
