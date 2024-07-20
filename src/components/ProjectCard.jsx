@@ -7,6 +7,14 @@ const ProjectCard = ({ project, onClick }) => {
     const { t: translate } = useTranslation();
     if(project == null) return;
 
+    function truncateText(text) {
+        if (text.length > 150) {
+            return text.substring(0, 150) + '...';
+        } else {
+            return text;
+        }
+    }
+
     const renderCardImage = (project) => {
         return (
             project.images.length > 0 ? (
@@ -32,16 +40,17 @@ const ProjectCard = ({ project, onClick }) => {
     };
 
     return (
-        <Card sx={{ marginBottom: 2 }}>
+        <Card sx={{ display: 'flex', flexDirection: 'column', marginBottom: 2, height: '350px' }}>
             {renderCardImage(project)}
-            <CardContent>
+            <CardContent sx={{ flex: 1 }}>
                 <Typography variant="h5" component="div">{project.title}</Typography>
-                <Typography variant="body2" color="text.secondary">{project.summary}</Typography>
+                <Typography variant="body2" color="text.secondary">{truncateText(project.summary)}</Typography>
             </CardContent>
             <CardActions>
                 <Button size="small" onClick={onClick}>{translate('projects.details')}</Button>
             </CardActions>
         </Card>
+
     );
 };
 
