@@ -1,13 +1,14 @@
 import { Box, Chip, Divider, List, ListItem, Typography, ListItemIcon } from "@mui/material";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { isValidElement } from "react";
+import { paragraphSize, subTitleSize } from "../assets/styles";
 
 const CustomBlockWithTitle = ({ title, body }) => {
     if (body === null || body.length === 0 || body === undefined) return;
     return (
-        <Box sx={{ mb: 1 }}>
-            <Divider sx={{ mb: 1 }}>
-                <Chip label={title} size="small" variant='outlined' />
+        <Box sx={{ mb: 2 }}>
+            <Divider sx={{ mb: 3 }}>
+                <Chip label={title} size="string" variant='outlined' sx={{ fontSize: '20px' }}/>
             </Divider>
             {Array.isArray(body) ? (
                 <List>
@@ -16,12 +17,12 @@ const CustomBlockWithTitle = ({ title, body }) => {
                             <ListItemIcon>
                                 <ChevronRightIcon />
                             </ListItemIcon>
-                            <Typography variant="body2">{elt}</Typography>
+                            <Typography sx={{ fontSize: paragraphSize }}>{elt}</Typography>
                         </ListItem>
                     ))}
                 </List>
                 ) : typeof body === 'string' ? (
-                <Typography variant="body2">{body}</Typography>
+                <Typography sx={{ fontSize: paragraphSize }}>{body}</Typography>
                 ) : (
                 isValidElement(body) && body
             )}
