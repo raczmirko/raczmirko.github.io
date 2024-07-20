@@ -203,6 +203,12 @@
     },
     "projects": {
         "title": "Projects",
+        "summary": "Summary",
+        "motivation": "Motivation",
+        "techStack": "Tech Stack",
+        "functionality": "Functionality",
+        "futureImprovements": "Future improvements",
+        "challenges": "Challenges",
         "subtitle": "My computer science-related projects that I have worked on over the years."
     }
 }

@@ -1,8 +1,14 @@
-import { Box, Button, ImageList, ImageListItem, Modal, Typography, Backdrop, Fade } from '@mui/material';
+import { Backdrop, Box, Button, Fade, ImageList, ImageListItem, Modal, Typography, Divider, Chip } from '@mui/material';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CloseButton from './CloseButton';
+import CustomBlockWithTitle from './CustomBlockWithTitle';
+import CustomChips from './CustomChips';
+import Gallery from './Gallery';
 
 const ProjectModal = ({ open, onClose, project, projectImages }) => {
+    const { t: translate } = useTranslation();
+    
     if (!project) return null;
 
     const style = {
@@ -34,30 +40,18 @@ const ProjectModal = ({ open, onClose, project, projectImages }) => {
             <Fade in={open}>
                 <Box sx={style}>
                     <CloseButton onClose={onClose}/>
-                    <Typography variant="h4" sx={{ alignContent: 'center' }}>{project.title}</Typography>
-                    <Typography variant="body2" color="text.secondary">{project.summary}</Typography>
-                    <Typography variant="h6" component="h3">Motivation</Typography>
-                    <Typography variant="body2" color="text.secondary">{project.motivation}</Typography>
-                    <Typography variant="h6" component="h3">Functionality</Typography>
-                    <Typography variant="body2" color="text.secondary">{project.functionality}</Typography>
-                    <Typography variant="h6" component="h3">Challenges</Typography>
-                    <Typography variant="body2" color="text.secondary">{project.challenges.join(", ")}</Typography>
-                    <Typography variant="h6" component="h3">Future Improvements</Typography>
-                    <Typography variant="body2" color="text.secondary">{project.futureImprovements.join(", ")}</Typography>
-                    <Typography variant="h6" component="h3">Tech Stack</Typography>
-                    <Typography variant="body2" color="text.secondary">{project.techStack.join(", ")}</Typography>
-                    <ImageList cols={3} rowHeight={164}>
-                        {projectImages.length > 0 && projectImages.map((img, index) => (
-                            <ImageListItem key={index}>
-                                <img src={img} alt={project.title} />
-                            </ImageListItem>
-                        ))}
-                    </ImageList>
+                    <Typography variant="h4" sx={{ alignContent: 'center', mb: 2 }}>{project.title}</Typography>
+                    <CustomBlockWithTitle title={translate('projects.summary')} body={project.summary}/>
+                    <CustomBlockWithTitle title={translate('projects.motivation')} body={project.motivation}/>
+                    <CustomBlockWithTitle title={translate('projects.functionality')} body={project.functionality}/>
+                    <CustomBlockWithTitle title={translate('projects.futureImprovements')} body={project.futureImprovements}/>
+                    <CustomBlockWithTitle title={translate('projects.techStack')} body={<CustomChips list={project.techStack}/>} />
                     <Box sx={{ display: 'flex' }}>
                         {project.links.length > 0 && project.links.map((link, index) => (
                             <Button key={index} sx={{ m:1 }} href={link.link} target="_blank" rel="noopener noreferrer">{link.name}</Button>
                         ))}
                     </Box>
+                    <Gallery images={project.images} title={project.title} />
                 </Box>
             </Fade>
         </Modal>
