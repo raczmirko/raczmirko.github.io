@@ -51,3 +51,13 @@ export const paragraphSize = {
   sm: '20px', // small screens
   md: '20px' // medium and up
 };
+export const modalWidth = {
+  xs: '100%', // mobile
+  sm: '80%', // small screens
+  md: '60%' // medium and up
+};
+export const modalHeight = {
+  xs: '100%', // mobile
+  sm: '80%', // small screens
+  md: '80%' // medium and up
+};

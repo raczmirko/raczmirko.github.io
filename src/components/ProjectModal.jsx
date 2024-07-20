@@ -5,6 +5,7 @@ import CloseButton from './CloseButton';
 import CustomBlockWithTitle from './CustomBlockWithTitle';
 import CustomChips from './CustomChips';
 import Gallery from './Gallery';
+import { modalWidth, modalHeight } from '../assets/styles';
 
 const ProjectModal = ({ open, onClose, project, projectImages }) => {
     const { t: translate } = useTranslation();
@@ -16,8 +17,8 @@ const ProjectModal = ({ open, onClose, project, projectImages }) => {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        width: '80%',
-        maxHeight: '80%',
+        width: modalWidth,
+        maxHeight: modalHeight,
         bgcolor: 'background.paper',
         border: '2px solid #ffffff',
         boxShadow: 24,
