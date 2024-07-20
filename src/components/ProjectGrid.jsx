@@ -1,8 +1,9 @@
 import ImageNotSupportedIcon from '@mui/icons-material/ImageNotSupported';
-import { Box, Button, Card, CardContent, CardMedia, Grid, Pagination, Typography } from '@mui/material';
+import { Box, CardMedia, Grid, Pagination } from '@mui/material';
 import React, { useState } from 'react';
 import projects from '../assets/projects.json';
 import { images } from '../utils/imageMap';
+import ProjectCard from './ProjectCard';
 import ProjectModal from './ProjectModal';
 
 const ProjectGrid = () => {
@@ -11,7 +12,7 @@ const ProjectGrid = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 6;
 
-    const handleOpenModal = (project, images) => {
+    const handleOpenModal = (project) => {
         setSelectedProject(project);
         setOpen(true);
     };
@@ -19,30 +20,6 @@ const ProjectGrid = () => {
     const handleClose = () => {
         setOpen(false);
         setSelectedProject(null);
-    };
-
-    const renderCardImage = (project) => {
-        return (
-            project.images.length > 0 ? (
-                <CardMedia
-                    component="img"
-                    height="140"
-                    image={project.images[0]}
-                    alt={project.title}
-                />
-                ) : (
-                <Box
-                    sx={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        height: 140,
-                    }}
-                >
-                    <ImageNotSupportedIcon fontSize="large" />
-                </Box>
-            )
-        )
     };
 
     const projectsWithImages = projects.map((project) => {
@@ -66,18 +43,7 @@ const ProjectGrid = () => {
             <Grid container spacing={2}>
                 {displayProjects.map((project, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                        <Card>
-                            {renderCardImage(project)}
-                            <CardContent>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    {project.title}
-                                </Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    {project.summary}
-                                </Typography>
-                                <Button size="small" onClick={() => handleOpenModal(project)}>Learn More</Button>
-                            </CardContent>
-                        </Card>
+                        <ProjectCard project={project} onClick={() => handleOpenModal(project)}/>
                     </Grid>
                 ))}
             </Grid>
