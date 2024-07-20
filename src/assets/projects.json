@@ -52,5 +52,23 @@
         "techStack": ["Python", "Linux"],
         "folder": "birdcam_frame",
         "links": []
+    },
+    {
+        "title": "AnimalCam",
+        "summary": "AnimalCam is my BirdCam project‘s follow-up project, where I wanted to extend the project’s spectrum from only bird related pictures to pictures about all of our animals, since we are animal lovers and have many furry (and feathery) friends.",
+        "motivation": "At the time of creating AnimalCam I was taking Web Application Development classes at university, so I wanted to create something with a LAMP (Linux, Apache, MySQL, PHP) stack.",
+        "functionality": "AnimalCam is a fullstack project, meaning that I have my own local Linux server (that I configured on a Raspberry Pi), running a web application namely the AnimalCam website, accessible from the local network. It features a gallery, posts, a video livestream of the BirdCam and a cropping tool to help upload images.",
+        "challenges": [
+            "Creating my first full-stack app, configuring Apache Webserver on Linux.",
+            "I didn't use any frontend styling libraries so making the app look not-terrible was really tedious.",
+            "The image cropping functionality was quite hard to implement.",
+            "Implementing a complex filtering mechanism via dynamicSQL queries."
+        ],
+        "futureImprovements": [
+            "Using bootstrap or similar libraries to create a coherent styling."
+        ],
+        "techStack": ["PHP", "Linux", "Apache Webserver", "MySQL"],
+        "folder": "animalcam",
+        "links": []
     }
 ]
