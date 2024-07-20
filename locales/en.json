@@ -200,5 +200,16 @@
     "resources": {
         "title": "Resources",
         "subtitle": "Resources in different languages that I found incredibly useful during my development journey. It will hopefully help others, and my future self."
+    },
+    "projects": {
+        "title": "Projects",
+        "summary": "Summary",
+        "motivation": "Motivation",
+        "techStack": "Tech Stack",
+        "functionality": "Functionality",
+        "futureImprovements": "Future improvements",
+        "challenges": "Challenges",
+        "details": "See details",
+        "subtitle": "My computer science-related projects that I have worked on over the years."
     }
 }
