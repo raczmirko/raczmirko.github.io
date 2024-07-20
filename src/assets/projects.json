@@ -70,5 +70,111 @@
         "techStack": ["PHP", "Linux", "Apache Webserver", "MySQL"],
         "folder": "animalcam",
         "links": []
+    },
+    {
+        "title": "Personal Project Manager",
+        "summary": "Personal Project Manager is one of my most complex full-stack projects made during my BSc studies.",
+        "motivation": "Ever since I took a Databases course during my BSc I have been fascinated by databases and the amount of questions that can be answered by analysing the stored data. Having passed the databases course with flying colours I immediately wanted to put my knowledge to practice and make a database to keep track of my studying habits and projects. Once I finished with the database structure I quickly realised that without a custom-tailored application and interface, using the database to track my habits was a chore.",
+        "functionality": "The application first asks for the login information of a Microsoft SQL Server instance, which can either be saved locally to then automatically load on the next startup or just used once as a temporary login. Once logged in the database’s tables are dynamically loaded into a list with each tile randomly coloured on each load without colour-repetition on adjacent tiles. When clicked the tables open an editor view which allows the user to insert, delete or update records in the given table. Pre-created view can also be viewed, showing the result set.",
+        "challenges": [
+            "I had to use multi-threading when connecting to a database, because SQL Server is notorious for taking a while to try to log in when wrong credentials are given, thus making the GUI freeze whilst waiting for a response. I had to implement a connection progress bar animation.",
+            "This was my first JDBC project, I had difficulties with the DB driver when creating the final JAR file of my project, since I had to manually include the JDBC dependency in my final project JAR too.",
+            "I had to make sure all the views and tables are dynamically loaded from the database to make sure modifications to the database are reflected in the application."
+        ],
+        "futureImprovements": [
+            "A custom query window would be a great addition to the application, letting users to create any SQL query, thus showing the result set in a pop-up window would be possible.",
+            "The hashing and salting of the stored passwords is STRONGLY recommended. Currently the server login passwords are stored as plain text since I only used the application locally with a local database instance.",
+            "The app only works with MS SQL Server for now, but Derby integration would be an interesting addition."
+        ],
+        "techStack": ["Java", "JDBC", "MS SQL Server", "T-SQL", "JavaFX"],
+        "folder": "personal_project_manager",
+        "links": [{"name": "GitHub", "link": "https://github.com/raczmirko/personal-project-manager"}]
+    },
+    {
+        "title": "Puzzle Center",
+        "summary": "A twisty-puzzle Android app featuring a solve-timer, statistics, record-tracking and categorized algorithms for solving the puzzles.",
+        "motivation": "I made this application after taking mobile app development lessons in university and really liking the portability of such apps. I have a collection of 80+ twisty puzzles, and I play with them from time to time. However, with many of them requiring different algorithms I often found myself searching the internet for certain algorithms that I had learned but forgot about, which took a lot of time and effor. So I wanted to create an app that keeps my favourite algorithms in one place. Then I also wanted it to be functional, so I added a puzzle timer, statistics and so on.",
+        "functionality": "The app has three utilities and a collection of puzzle algorithms. The utilities are: A solve timer, which can be used to time puzzle solves and keep track of one's time improvements. A records page to keep track of one's personal records with each puzzle. And finally a statistics page to gain meaningful insights to one's solving capabilities, such as number of total solves, average of last 12 solves, most trained puzzle etc.",
+        "challenges": [
+            "This being my first Android app, app lifecycle management and other Android-specific ideas were something I had to get used to.",
+            "The app's development is really slow, because for each puzzle category I have to do research on algorithms, learn the algorithms to know which ones I prefer and so on.",
+            "Designing the icons for all puzzles was time consuming to say the least.",
+            "Releasing the app on the Google Play Store was no easy task, I had to learn about app signing and many more."
+        ],
+        "futureImprovements": [
+            "First and foremost, I want to finish this app at some point finally.",
+            "I should probably implement some kind of SQLite database structure to store the algorithms instead of storing them as text.",
+            "I would like to once re-write the app in a more modern framework or language, such as React Native."
+        ],
+        "techStack": ["Java", "Android"],
+        "folder": "puzzle_center",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/puzzle-center"},
+            {"name": "Google Play", "link": "https://play.google.com/store/apps/details?id=hu.okrim.puzzlecenter"}
+        ]
+    },
+    {
+        "title": "Truck Simulator Timer",
+        "summary": "TruckSimulatorTimer is an Android app written in Java that helps convert in-game delivery times to real time in the famous simulator games Euro Truck Simulator and American Truck Simulator.",
+        "motivation": "I like playing video games, especially simulator games. My favourites have always been Euro Truck Simulator 2 and American Truck Simulator. But I had this one problem where I never knew how much real time a specific delivery was going to take, as the in-game GPS only shows the estimated time in in-game time. I took matters in my own hand and developed an app to solve this problem.",
+        "functionality": "The application has a timer functionality, that estimates the remaining drive time based on the input data such as total kilometres and ferry distance. Every delivery drive is saved to an SQLite database and is used to make further estimations in order to improve estimation precision. This is needed in order to counterweight all the traffic jams, red lights and driving manners that are not factored in to the original estimation. The estimation strategies can be manually configured in a settings page to make everything custom-fit to the user. A statistics page provides more in-depth details about the previous drives, such as overall estimation precision, estimation median, total drives, total time driven, etc. The database records can be manually reviewed and deleted in case of an error.",
+        "challenges": [
+            "I had to make sure the time functionality is precise to avoid any timing errors. I used multithreading for the timer.",
+            "I had to make the estimation strategies configurable, from the sampling pool size to the expected traffic error rate.",
+            "I had to make sure the database entries were manually viewable and removable in case of an erroneous record.",
+            "I had to make sure the screen does not turn off whilst using the app.",
+            "I had to thoroughly test the time estimation logic so that whenever the timer is paused, extended or modified during runtime it still yields a good result."
+        ],
+        "futureImprovements": [],
+        "techStack": ["Java", "SQLite", "XML"],
+        "folder": "truck_timer",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/truck-simulator-timer"},
+            {"name": "Google Play", "link": "https://play.google.com/store/apps/details?id=hu.okrim.trucksimulatortimer"}
+        ]
+    },
+    {
+        "title": "Product Rating App",
+        "summary": "ProductRatingApp is a fullstack project where I wanted to practice the technologies I got to use during my internship at Qlex: Java, Spring and JavaScript. I also used Thymeleaf for the frontend and SQL Server for the DB.",
+        "motivation": "I like rating things I buy, be that different flavours of drinks, food or else. I also find it intriguing being able to analyse a set of data and find patterns, similarities and most importantly, answers to certain question. This is why I decided to make an application where I can rate different kinds of food and beverages.",
+        "functionality": "The application allows users to create categories, flavours, brands. Each product is composed of a name, a brand, a category and different flavours. Users can then rate these products. On the home page some data-related information is shown, such as best rated products, recent ratings, etc. I wanted to share my project with my family members making it possible for anyone to leave product reviews. For this, my locally ran application was not suitable and I needed to host it on a Raspberry Pi micro computer on the local network. However, on Linux there is no Microsoft SQL Server support, so I needed to use MariaDB as an alternative. Once I configured the DB, I wrote a BASH script that clones the project’s GitHub repository, and scheduled this script to run periodically via cron, this made it easy to update the app whenever I release a new commit. This made it possible to host my app locally on a Linux-based Rapsberry Pi.",
+        "challenges": [
+            "It was my first time using Maven as a build tool so I had to get familiar with it.",
+            "The card-like tag system with the custom CSS animations was quite challenging to develop.",
+            "I tried to create the interface with my best attention to detail, making it quite a puzzle sometimes, especially on the CSS part.",
+            "Creating the Raspberry Pi powered local deploy."
+        ],
+        "futureImprovements": [
+            "Since I wrote the application for personal use with my family members, currently each time a rating is submitted the rating’s user must be manually selected, meaning that any user can be selected. In a public system user authentication and login should be implemented with password hashing. Thus a login system would be a meaningful addition.",
+            "The application doesn’t currently contain many queries and statistics, these should be added.",
+            "Editing and deleting reviews is currently not supported, but should be."
+        ],
+        "techStack": ["Java", "Spring", "JavaScript", "Bootstrap", "Thymeleaf", "MS SQL Server"],
+        "folder": "product_rating_app",
+        "links": [
+            {"name": "GitHub", "link": "https://github.com/raczmirko/product-rating-app"}
+        ]
+    },
+    {
+        "title": "Product Rating App 2.0",
+        "summary": "A Spring & React web application that uses a carefully desinged underlying Microsoft SQL Server database (which was my BSc diploma work) to meaningfully review products. Using MUI for a beautiful frontend.",
+        "motivation": "My BSc diploma work was about designing a relational database structure to meaningfully review products. With such a complex DB at disposition, I though it would be a really interesting project to create a complete web application where this structure could be used. To make the whole frontend as polished as the carefully designed database, I choose to learn React and use this project to practice my newly learned skills. I chose to use Material UI (MUI), which is a React component library that follows guidelines such as Google’s material design principles, which makes it incredibly nice on the eyes and intuitive to use.",
+        "functionality": "The system in question allows for the evaluation of products based on various criteria, such as taste, packaging, color, etc. Products can be food items, consumer goods, electronics, and so on. The system maintains records of conceptual products, i.e., items that can be purchased as specific products in various packaging options at stores. Each item has a brand and can be categorized, and the categories can be hierarchically organized (main category and subcategories) up to a depth of 3. For example, a main category could be beverages, with its subcategories being tea or coffee. Each category has characteristics (e.g., color, taste), and products belonging to that category can have these characteristics. Additionally, every category can be evaluated based on certain criteria (e.g., taste for the beverage category). Products belonging to a given category can be rated on a scale from 1 to 5 as part of the product reviews, based on the criteria specific to the category, as well as inherited criteria from higher-level categories. Product images can also be stored for each product. Each evaluation comes from an individual and pertains to a specific product. Every data modification is logged in the system.",
+        "challenges": [
+            "Implementation of JSON Web Token based authentication mechanism along with RESTful APIs.",
+            "Creating an intuitive frontend for such a complex database structure.",
+            "Session management",
+            "Permissions and roles"
+        ],
+        "futureImprovements": [
+            "Since I developed this application for personal use, I didn’t spend too much time on creating different permissions and roles, however the application is prepared for such modifications and these could be implemented to enhance functionality.",
+            "It would be interesting to implement AI to create more complex statistics and dashboards based on ratings."
+        ],
+        "techStack": ["Java", "Spring", "Maven", "JWT", "React", "MUI (Material UI)", "MUI-X","MS SQL Server", "ParticleJS"],
+        "folder": "product_review_app",
+        "links": [
+            {"name": "GitHub backend repo", "link": "https://github.com/raczmirko/product-review-app-complete-backend"},
+            {"name": "GitHub frontend repo", "link": "https://github.com/raczmirko/product-review-app-complete-frontend-mui"}
+        ]
     }
 ]
