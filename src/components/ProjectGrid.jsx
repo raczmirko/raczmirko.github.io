@@ -8,13 +8,11 @@ import ProjectModal from './ProjectModal';
 const ProjectGrid = () => {
     const [open, setOpen] = useState(false);
     const [selectedProject, setSelectedProject] = useState(null);
-    const [projectImages, setProjectImages] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 6;
 
     const handleOpenModal = (project, images) => {
         setSelectedProject(project);
-        setProjectImages(images);
         setOpen(true);
     };
 
@@ -77,7 +75,7 @@ const ProjectGrid = () => {
                                 <Typography variant="body2" color="text.secondary">
                                     {project.summary}
                                 </Typography>
-                                <Button size="small" onClick={() => handleOpenModal(project, project.images)}>Learn More</Button>
+                                <Button size="small" onClick={() => handleOpenModal(project)}>Learn More</Button>
                             </CardContent>
                         </Card>
                     </Grid>
