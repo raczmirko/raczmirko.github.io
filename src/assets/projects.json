@@ -37,5 +37,20 @@
         "links": [
             {"name": "Publication link", "link": "https://isze.hu/wp-content/uploads/2021/09/Inspiracio2021_3.pdf"}
         ]
+    },
+    {
+        "title": "Birdcam digital frame",
+        "summary": "A digital picture frame to showcase the images my Birdcam project captured.",
+        "motivation": "The Birdcam project was a success, and I wanted to show the resulting images to friends and family, but it was not convenient having to join the Birdcam, browse the photos, show it on a small mobile screen and so on, so I decided to make a custom digital frame for this purpose.",
+        "functionality": "The frame is using a Rapsberry Pi Zero micro computer, which runs a custom Python slideshow app that I made to display images from a predefined folder. The Birdcam was connected to this folder over the local network via FTP, thus the frame would always have new photos the Birdcam made. I made a second version of the frame which had buttons to allow manual interaction with the slideshow, as well as a new hardware design with a glass window to expose the internals of the frame.",
+        "challenges": [
+            "Scaling the images so that they would fit onto the custom touchscreen of the frame, which had a special aspect ration.",
+            "Writing a custom slideshow app in Python",
+            "Scheduling the frame to turn on and off automatically, and to load the slideshow app on boot."
+        ],
+        "futureImprovements": [],
+        "techStack": ["Python", "Linux"],
+        "folder": "birdcam_frame",
+        "links": []
     }
 ]
