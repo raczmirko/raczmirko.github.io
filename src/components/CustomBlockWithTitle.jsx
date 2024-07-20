@@ -3,6 +3,7 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { isValidElement } from "react";
 
 const CustomBlockWithTitle = ({ title, body }) => {
+    if (body === null || body.length === 0 || body === undefined) return;
     return (
         <Box sx={{ mb: 1 }}>
             <Divider sx={{ mb: 1 }}>
