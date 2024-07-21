@@ -1,81 +1,222 @@
 {
     "general": {
-        "summary": "Summary"
+        "summary": "Összefoglaló",
+        "link": "Link",
+        "lang": "Nyelv",
+        "en": "English",
+        "fr": "Français",
+        "hu": "Magyar",
+        "pageTitle": "OKRIM | Mérnökinformatika portfólió"
     },
     "menu": {
-        "home": "Home",
-        "about": "About me",
-        "projects": "Projects",
-        "resources": "Resources",
-        "academic": "Academic",
-        "skills": "Skills",
-        "contact": "Contact me"
+        "home": "Kezdőlap",
+        "about": "Rólam",
+        "projects": "Projektek",
+        "resources": "Források",
+        "academic": "Tudományos",
+        "skills": "Képességek",
+        "contact": "Kapcsolat"
     },
     "home": {
-        "welcome": "WELCOME TO",
-        "authorName": "MIRKÓ RÁCZ",
-        "welcomeMsg": "'s portfolio website!",
-        "about": "What's this site about?",
+        "welcome": "ISTEN HOZOTT",
+        "authorName": "RÁCZ MIRKÓ",
+        "welcomeMsg": "portfólió weboldalán!",
+        "aboutDesc": "Mérnökinformatikus hallgatóként szerettem volna megosztani az informatika iránti szenvedélyemet bárkivel, akit ez érdekel.",
+        "aboutTitle": "Mérnökinformatika",
+        "about": "Miről szól ez az oldal?",
         "cards": {
             "projects": {
-                "title": "Projects",
-                "description": "Explore my personal IT projects in great detail with specifications and images for a concise picture."
+                "title": "Projektek",
+                "description": "Saját hobbi- és gyakorlóprojektjeim gyűjteménye részletes leírásokkal és képekkel, átfogó képet nyújtva."
             },
             "resources": {
-                "title": "Resources",
-                "description": "I wanted to have a place where I can collect useful IT resources, and I thought it may be useful for others too."
+                "title": "Források",
+                "description": "Olyan, az évek alatt összegyűjtött informatikával kapcsolatos források, amelyekről úgy gondoltam, mások - és a jövőbeli énem - számára is hasznosak lehetnek."
             },
             "skills": {
-                "title": "Skills",
-                "description": "A dedicated page to list my skills that I have acquired over the years."
+                "title": "Skillek",
+                "description": "Soft és hard skilljeim gyűjteménye."
             },
             "academic": {
-                "title": "Academic contributions",
-                "description": "A collection of my academic contributions such as publications and presentations."
+                "title": "Tudományos közreműködéseim",
+                "description": "Az egyetemi éveim alatt elért tudományos sikereim, előadásaim, publikációim gyűjteménye."
             }
         }
     },
     "contact": {
-        "title": "Contact",
-        "subtitle": "Send me an (encrypted) email!",
-        "getInTouch": "Get in touch with me:",
+        "title": "Kapcsolat",
+        "subtitle": "Küldj nekem (titkosított) emailt!",
+        "getInTouch": "Vedd fel velem a kapcsolatot:",
         "email": {
-            "title": "My email address",
-            "description": "contact (at) okrim (dot) hu"
+            "title": "Email címem",
+            "description": "contact (kukac) okrim (pont) hu"
         },
         "pgp":{
-            "title": "Download or copy my public key:",
-            "subtitle": "You can import this public PGP key to your keychain, and then send me encrypted messages with it.",
-            "download": "Download public key",
-            "copy": "Copy key to clipboard",
-            "asText": "View my PGP public key as text"
+            "title": "Publikus kulcsom letöltése vagy másolása:",
+            "subtitle": "Ennek a kulcsnak a segítségével küldhetsz nekem titkosított emailt.",
+            "download": "Publikus kulcs letöltése",
+            "copy": "Publikus kulcs másolása",
+            "asText": "Publikus PGP-kulcsom megtekintése szövegként"
         }
     },
     "academic": {
-        "title": "Academic contributions",
-        "summary": "During my academic years I always seeked opportunities to participate in workshops, projects, school events and so on. This page summarizes all my presentations, publications and other academic activities.",
+        "title": "Tudományos közreműködéseim",
+        "summary": "Akadémiai éveim alatt mindig kerestem a lehetőségeket, hogy részt vegyek workshopokon, projekteken, iskolai eseményeken és hasonlókon. Ez az oldal összefoglalja az összes előadásomat, publikációmat és egyéb akadémiai tevékenységemet. Az összes kártyát lenyitható további képek megjelenítéséhez.",
         "presentations": {
-            "title": "Presentations",
+            "title": "Előadásaim",
             "one": {
-                "title": "BirdCam project",
-                "date": "June, 2021",
-                "location": "Dennis Gabor Talent Support gala",
-                "summary": "I presented my BirdCam project, from creating the first prototype to the final publication. My work had positive feedback and I was offere₫ to publish it in the Newsletter of The Hungarian IT Teachers' Association.",
-                "description": "You can see more about my BirdCam project on the Projects page."
+                "title": "BirdCam projekt",
+                "date": "2021. június",
+                "location": "Gábor Dénes Tehetségpont gála",
+                "summary": "Bemutattam a BirdCam fedőnévre hallgató projektemet az első prototípus megépítésétől a végleges publikációig. A munkám pozitív fogadtatásban részesült és publikálásra került a Magyar Informatikai Tanárok Szövetkezetének hírlevelében.",
+                "description": "A BirdCam projekem részletei megtalálhatók a Projektek oldalon."
             },
             "two": {
-                "title": "About our ‘maths for fun’ workshop",
-                "date": "October 20th, 2021",
-                "location": "Dennis Gabor Talent Support gala",
-                "summary": "As a core member of the workshop, I gave a presentation about the workshop’s mentality, the kind of questions we look at together during the sessions and I also mentioned some discrete maths questions that I really enjoyed thinking about during the past year.",
-                "description": "Another riddle I mentioned in my presentation: Egy faárus fából kifaragott betűket árul. Azt, hogy az egyes betűk mennyibe kerülnek nem árulja el, de megadja a következőket: ONE $1-ba kerül, TWO $2-ba kerül, ELEVEN $11-ba kerül. Mennyibe kerül a ‘TWELVE’ szó?"
+                "title": "Az ÉlményMatek diákműhelyről",
+                "date": "2021. október 20.",
+                "location": "Gábor Dénes Tehetségpont gála",
+                "summary": "Az ÉlményMatek diákműhely oszlopos tagjaként adtam elő a műhely filozófiájáról, az érintett feladatok típusáról és bemutattam néhány konkrét matekos példát amelyeken élvezettel törtem a fejem a szemeszter alatt.",
+                "description": "Egy fejtörő, amit említettem az előadásomban: Egy faárus fából kifaragott betűket árul. Azt, hogy az egyes betűk mennyibe kerülnek nem árulja el, de megadja a következőket: ONE $1-ba kerül, TWO $2-ba kerül, ELEVEN $11-ba kerül. Mennyibe kerül a ‘TWELVE’ szó?"
+            },
+            "three": {
+                "title": "Kedvenc ÉlményMatekos példáim ebben a tanévben",
+                "date": "2022. június 23.",
+                "location": "Gábor Dénes Tehetségpont gála",
+                "summary": "A műhely képviseletében beszéltem néhány kedvenc feladatomról, kérdésemről a tanévből.",
+                "description": "Beszéltem például annak a bizonyításáról, hogy a Cantor halmaz számossága kontinuum. Bemutattam Java nyelven írt hipotézis-tesztelő alkalmazásomat, beszéltem a pontos szóhasználat fontosságáról a matematikában, valamint a Rubik-kocka matematikájáról is esett szó."
+            },
+            "four": {
+                "title": "A Rubik-kocka algoritmikus megoldása",
+                "date": "2022 december",
+                "location": "ÉlményMatek diákműhely",
+                "summary": "Az egyik műhelyalkalmon egy egy órás előadás keretein belül beszéltem a Rubik kocka algoritmikus megoldásáról, a számítógépek által használt megoldási algoritmusokról, a kocak matematikájáról, történelmi összefoglalójáról, stb.",
+                "description": "Előadásom néhány része: Mi a Rubik-kocka, hogyan lehet megoldani a Rubik-kockát, A* útvonalkereső algoritmus, Rubik-kocka jelölések, alsó és felső korlát, Isteni szám, Thistlethwaithe algoritmus, Korf algoritmus, a kocka megoldása számítógépekkel."
+            },
+            "five": {
+                "title": "3 ok, amiért érdemes adatbázisokat tanulni",
+                "date": "2024. június 19.",
+                "location": "Gábor Dénes Tehetségpont gála",
+                "summary": "Előadást tartottam az SQL és a relációs adatbázisok fontosságáról szoftverfejlesztői szemszögből, bemutattam néhány gyakorlati példát, ahol az ilyen tudás előnyös, valamint ismertettem a BSc diplomamunkám adatbázis-struktúráját, annak korlátozásait és megvalósítását.",
+                "description": ""
             }
+
         },
         "publications": {
-            "title": "Publications"
+            "title": "Publikációk",
+            "birdcam": {
+                "title": "'BirdCam projekt': Raspberry Pi alapú mozgásérzékelős madárkamera IoT rendszer építése",
+                "date": "2021. szeptember",
+                "location": "A Magyar Informatikai Tanárok Egyesületének Hírlevele",
+                "summary": "Részletes útmutató arról, hogyan építhető meg a BirdCam projekt az alapoktól kezdve, a hardver- és szoftverkonfigurációkkal együtt.",
+                "description": "További részleteket a BirdCam projektről a Projektek oldalon."
+            }
         },
         "achievements": {
-            "title": "Other academic achievements"
+            "title": "Egyéb akadémiai eredmények",
+            "one": {
+                "title": "Csatlakoztam az ÉlményMatek diákműhelyhez",
+                "date": "2020. október",
+                "summary": "Az egyetem első hetei során csatlakoztam egy matematikai diákműhelyhez, ahol az egyik oszlopos taggá váltam, és 3 éven keresztül segítettem a workshopok megszervezésében.",
+                "description": "Heti rendszerességű műhelyalkalmak voltak, ahol diszkrét matematikáról, kalkulusról és sok matematikához kapcsolódó témáról beszélgettünk. Ez volt a tökéletes hely arra, hogy közösen gondolkodjunk, kérdéseket tegyünk fel és megismerkedjünk az absztrakt ötletekkel."
+            },
+            "two": {
+                "title": "Analízis demonstrátor lettem",
+                "date": "2021. február",
+                "summary": "A második szemeszteremben az a megtiszteltetés ért, hogy analízis demonstrátori szerepet tölthettem be, ahol együtt dolgoztam tanárommal új anyagok fejlesztésén és a heti workshopok szervezésén, dokumentálásán.",
+                "description": "A demonstrátor hasonló a tanársegédhez. Segítettem a kalkulus anyagok fejlesztésében LaTeX és RegEx technológiákkal, heti workshopokat szerveztünk, és egy iskolai weboldalt is kezeltem a workshopok tevékenységéről."
+            }
         }
+
+    },
+    "skills": {
+        "title": "Készségek",
+        "subtitle": "Soft és hard skilljeim",
+        "soft": "Soft skillek",
+        "hard": "Hard skillek",
+        "languages": {
+            "name": "Nyelvek",
+            "description": "Folyékonyan beszélek angolul (C1), franciául (C1) és magyarul (anyanyelv)."
+        },
+        "teamwork": {
+            "name": "Csapatmunka",
+            "description": "Szeretek másokkal együttműködni közös célok elérése érdekében."
+        },
+        "learning": {
+            "name": "Új technológiák iránti érdeklődés",
+            "description": "Érdekelnek az új technolgóiák, és igyekszem mindig naprakészen tartani technikai tudásom.."
+        },
+        "curiosity": {
+            "name": "Kíváncsiság",
+            "description": "Erős vágyat érzek arra, hogy megértsem, hogyan működnek a dolgok körülöttem és felfedezzek új ötleteket."
+        },
+        "teaching": {
+            "name": "Tanítás",
+            "description": "Szeretek  segíteni másoknak és együtt tanulni, fejlődni."
+        },
+        "precision": {
+            "name": "Precíz munka",
+            "description": "Törekszem a precíz munkavégzésre és nagy figyelmet fordítok a részletekre a munkámban."
+        }
+    },
+    "about": {
+        "title": "Rólam",
+        "subtitle": "Információk rólam, tanulmányaimról és szakmai életemről.",
+        "whoami": "Ki vagyok én?",
+        "studies": "Tanulmányok",
+        "work": "Munka",
+        "whoami1": {
+            "title": "Ki vagyok én?",
+            "description": "Diplomás mérnökinformatikus (2024 óta), aki arra törekszik, hogy jobb fejlesztővé váljon, és úgy döntöttem, hogy létrehozom ezt a kreatív felületet, hogy megosszam gondolataimat és munkámat bárkivel, akit érdekel (és hogy React-et tanuljak valami hasznos dolog létrehozása közben)."
+        },
+        "whoami2": {
+            "title": "Mire szolgál ez az oldal?",
+            "description": "Szeretek ötleteket megvalósítani. Élvezem, ahogy egy problémára megoldást találok, majd azt megvalósíthatom és végig kísérhetem a fejlesztés folyamatán."
+        },
+        "studies1": {
+            "title": "Mérnökinformatika BSc",
+            "date": "2020. szeptember - 2024. január",
+            "location": "Budapest, Gábor Dénes Egyetem",
+            "position": "Szoftverfejlesztési specializáció.",
+            "description": "Aktívan részt vettem az egyetemi életben: analízis demonstrátor voltam, számos diákműhely tagja voltam, rendszeresen tartottam előadásokat iskolai eseményeken (további részletek az akadémiai oldalon). Diplomamunkám címe 'Termékértékelő adatbázis szerver létrehozása' volt, amelyet a zsűri jól fogadott, és Kitűnő minősítést kapott.",
+            "tags": ["Analízis", "Statisztika", "Adatbázisok", "Algoritmusok", "Adatbázis-szerverek", "Android fejlesztés", "Java", "OOP", "Linux"]
+        },
+        "studies2": {
+            "title": "Mérnökinformatika MSc",
+            "date": "2024. szeptember - ",
+            "location": "Budapest, Gábor Dénes Egyetem",
+            "position": "Drón-technológia specializáció.",
+            "description": "Annyira élveztem a BSc tanulmányaimat, hogy nem volt kérdés, szeretném-e folytatni az akadémiai éveket. A drón-technológiát választottam, mert úgy gondolom, hogy ez egy izgalmas téma, és úgy éreztem, hogy jó kihívás lesz, különösen a matematikailag intenzív képelemzési aspektus miatt."
+        },
+        "work1": {
+            "title": "Qlex Cloud [qlex.cloud]",
+            "date": "2023. augusztus - 2023. október",
+            "location": "Remote, Belgium",
+            "position": "Szoftverfejlesztő gyakornok (Fullstack)",
+            "description": "Egy gyógyszerészeti szakemberek számára kialakított eQMS rendszeren dolgoztam, szigorú ISO szabványokat és iparági gyakorlatokat követve. Többek között CD/CI feladatokon, Spring JPA-val végzett lekérdezéseken, frontend fejlesztéseken dolgoztam.",
+            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+        },
+        "work2": {
+            "title": "ArchX [archx.eu]",
+            "date": "2024. február - MOST",
+            "location": "Remote, Belgium",
+            "position": "Szoftverfejlesztő gyakornok (Fullstack)",
+            "description": "Egy projektmenedzsment szoftveren (SaaS) dolgoztam építészek számára. Munkám leginkább a RESTful API-k, a dashboarding célokra szolgáló szűrők és a frontend fejlesztések körül forgott.",
+            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+        }
+    },
+    "resources": {
+        "title": "Források",
+        "subtitle": "Források különböző nyelveken, amelyeket rendkívül hasznosnak találtam a fejlesztési utam során. Remélhetőleg másoknak és a jövőbeli önmagamnak is segítségére lesz."
+    },
+    "projects": {
+        "title": "Projektek",
+        "summary": "Összefoglalás",
+        "motivation": "Motiváció",
+        "techStack": "Tech stack",
+        "functionality": "Funkcionalitás",
+        "futureImprovements": "Jövőbeli fejlesztések",
+        "challenges": "Kihívások",
+        "details": "Részletek megtekintése",
+        "subtitle": "Számítástechnikai projektek, amelyeken az évek során dolgoztam."
     }
 }
