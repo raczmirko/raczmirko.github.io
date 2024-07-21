@@ -285,5 +285,21 @@
         "techStack": ["Java", "JavaFX"],
         "folder": "xml_tools",
         "links": []
+    },
+    {
+        "title": "Okrim portfolio (this)",
+        "summary": "A portfolio website built entirely in React.",
+        "motivation": "I wanted to have a more professional website than my WordPress site, and I wanted to practice React. This is why I decided to build a portfolio website from the ground up, fine-tuning every little detail about it, making it look stunning with MUI.",
+        "functionality": "When making this website, I wanted to use as many different components of the MUI library as possible whilst keeping everything highly functional, that's why every page looks a little different. I also wanted it to be easy to add stuff to the site in the future, so the pages that are likely to change in the future are dynamically generated from JSON files, which can easily be edited anytime. This makes modifications effortless, and minimizes the chance of introducing bugs in the future.",
+        "challenges": [
+            "Dynamic generation of elements from JSON files.",
+            "Making the app fully responsive (so that on mobile the page looks as good as on PC).",
+            "Creating locales in different languages to avoid hard-coded text. I use the i18n library for this.",
+            "Deploying the app via GitHub pages, where I realized I had to change BrowserRouter to HashRouter to avoid URLs breaking."
+        ],
+        "futureImprovements": [],
+        "techStack": ["React", "MUI (Material UI)", "MUI-X", "i18n (translations)", "gh-pages", "GitHub Pages"],
+        "folder": "",
+        "links": []
     }
 ]
