@@ -1,7 +1,12 @@
 {
     "general": {
         "summary": "Summary",
-        "link": "Link"
+        "link": "Link",
+        "lang": "Language",
+        "en": "English",
+        "fr": "Français",
+        "hu": "Magyar",
+        "pageTitle": "OKRIM | Computer Science portfolio"
     },
     "menu": {
         "home": "Home",

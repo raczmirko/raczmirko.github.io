@@ -1,0 +1,220 @@
+{
+    "general": {
+        "summary": "Résumé",
+        "link": "Lien",
+        "lang": "Langue",
+        "en": "Anglais",
+        "fr": "Français",
+        "hu": "Hongrois",
+        "pageTitle": "OKRIM | Portfolio en informatique"
+    },
+    "menu": {
+        "home": "Accueil",
+        "about": "À propos de moi",
+        "projects": "Projets",
+        "resources": "Ressources",
+        "academic": "Académique",
+        "skills": "Compétences",
+        "contact": "Me contacter"
+    },
+    "home": {
+        "welcome": "BIENVENU AU SITE DE",
+        "authorName": "MIRKÓ RÁCZ",
+        "welcomeMsg": "",
+        "aboutDesc": "En tant que diplômé en informatique, je voulais partager ma passion pour l'informatique avec toute personne intéressée.",
+        "aboutTitle": "Informatique",
+        "about": "De quoi parle ce site ?",
+        "cards": {
+            "projects": {
+                "title": "Projets",
+                "description": "Explorez mes projets informatiques personnels en détail avec des spécifications et des images pour une vue d'ensemble concise."
+            },
+            "resources": {
+                "title": "Ressources",
+                "description": "Je voulais avoir un endroit où je peux rassembler des ressources informatiques utiles, et je pensais que cela pourrait aussi être utile pour les autres."
+            },
+            "skills": {
+                "title": "Compétences",
+                "description": "Une page dédiée pour lister les compétences que j'ai acquises au fil des années."
+            },
+            "academic": {
+                "title": "Contributions académiques",
+                "description": "Une collection de mes contributions académiques telles que publications et présentations."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Envoyez-moi un email (chiffré) !",
+        "getInTouch": "Contactez-moi :",
+        "email": {
+            "title": "Mon adresse email",
+            "description": "contact (arobase) okrim (point) hu"
+        },
+        "pgp": {
+            "title": "Téléchargez ou copiez ma clé publique :",
+            "subtitle": "Vous pouvez importer cette clé publique PGP dans votre trousseau, puis m'envoyer des messages chiffrés avec.",
+            "download": "Télécharger la clé",
+            "copy": "Copier la clé",
+            "asText": "Voir ma clé publique PGP en texte"
+        }
+    },
+    "academic": {
+        "title": "Contributions académiques",
+        "summary": "Pendant mes années académiques, j'ai toujours cherché des opportunités pour participer à des ateliers, des projets, des événements scolaires, etc. Cette page résume toutes mes présentations, publications et autres activités académiques. Vous pouvez ouvrir toutes les cartes pour afficher les images.",
+        "presentations": {
+            "title": "Présentations",
+            "one": {
+                "title": "Projet BirdCam",
+                "date": "Juin 2021",
+                "location": "Gala de Gábor Dénes point de talent",
+                "summary": "J'ai présenté mon projet BirdCam, depuis la création du premier prototype jusqu'à la publication finale. Mon travail a reçu des retours positifs et j'ai été invité à le publier dans le journal de l'Association Hongroise des Professeurs en IT.",
+                "description": "Vous pouvez en savoir plus sur mon projet BirdCam sur la page Projets."
+            },
+            "two": {
+                "title": "À propos de notre atelier ‘maths pour le plaisir’",
+                "date": "20 octobre 2021",
+                "location": "Gala de Gábor Dénes point de talent",
+                "summary": "En tant que membre principal de l'atelier, j'ai donné une présentation sur la mentalité de l'atelier, le type de questions que nous examinons ensemble pendant les sessions et j'ai également mentionné quelques questions de mathématiques discrètes que j'ai vraiment apprécié réfléchir au cours de l'année écoulée.",
+                "description": "Une autre devinette que j'ai mentionnée dans ma présentation : Un vendeur de rue vend des lettres sculptées en bois. Il ne révèle pas combien coûte chaque lettre, mais il fournit les informations suivantes : ONE coûte 1 $, TWO coûte 2 $, ELEVEN coûte 11 $. Combien coûte le mot 'TWELVE' ?"
+            },
+            "three": {
+                "title": "Mes exercices de mathématiques préférés de l'atelier de cette année",
+                "date": "23 juin 2022",
+                "location": "Gala de Gábor Dénes point de talent",
+                "summary": "J'ai représenté notre atelier de mathématiques, où j'ai parlé de certains de mes problèmes, questions et exercices préférés de l'année.",
+                "description": "Certains des sujets abordés étaient la preuve que la cardinalité de l'ensemble de Cantor est le Continuum, l'importance de l'utilisation précise des termes lorsqu'on parle de mathématiques, mon application de test d'hypothèses que j'ai écrite et démontrée et les mathématiques du Rubik's cube."
+            },
+            "four": {
+                "title": "Comment un ordinateur résout-il le Rubik’s cube ?",
+                "date": "Décembre 2022",
+                "location": "Atelier maths pour le plaisir",
+                "summary": "J'ai animé l'une des sessions de l'atelier de mathématiques avec une présentation d'une heure sur les algorithmes des puzzles tournants, l'approche algorithmique de la solution pour les programmes informatiques, les principes utilisés pour résoudre un cube, etc.",
+                "description": "Certaines parties de ma présentation : Qu'est-ce qu'un Rubik's cube, comment résoudre un Rubik's cube, algorithme A*, notations, bornes inférieure et supérieure, nombre de Dieu, algorithme de Thistlethwaite, algorithme de Korf, résolution du cube avec des ordinateurs."
+            },
+            "five": {
+                "title": "3 raisons d'apprendre les bases de données",
+                "date": "19 juin 2024",
+                "location": "Gala de Gábor Dénes point de talent",
+                "summary": "J'ai fait une présentation sur l'importance de SQL et des bases de données relationnelles du point de vue d'un développeur, j'ai donné quelques exemples pratiques où une telle connaissance est bénéfique, et j'ai présenté la structure de la base de données de mon travail de diplôme de licence, ainsi que ses contraintes et sa mise en œuvre.",
+                "description": ""
+            }
+        },
+        "publications": {
+            "title": "Publications",
+            "birdcam": {
+                "title": "'BirdCam project': Construction d'un système IoT de caméra pour oiseaux à détection de mouvement basé sur Raspberry Pi",
+                "date": "Septembre 2021",
+                "location": "Journal de l'Association des Professeurs en Informatique de Hongrie",
+                "summary": "Un guide détaillé sur la manière de construire mon projet BirdCam depuis le début, avec les configurations matérielles et logicielles.",
+                "description": "Plus de détails sur la page Projets."
+            }
+        },
+        "achievements": {
+            "title": "Autres réalisations académiques",
+            "one": {
+                "title": "Participation à l'atelier ‘mathématiques pour le plaisir’ de mon université",
+                "date": "Octobre 2020",
+                "summary": "Au cours de mes premières semaines à l'université, j'ai participé à un atelier de mathématiques pour étudiants, où je suis devenu l'un des membres principaux et j'ai aidé à organiser les sessions de l'atelier pendant 3 ans.",
+                "description": "Nous avions des sessions hebdomadaires où nous discutions de mathématiques discrètes, de calcul et de nombreux autres sujets liés aux mathématiques. C'était le lieu idéal pour réfléchir ensemble, poser des questions et se familiariser avec des idées abstraites."
+            },
+            "two": {
+                "title": "Devenu démonstrateur en calcul",
+                "date": "Février 2021",
+                "summary": "Au cours de mon deuxième semestre, j'ai eu l'honneur de devenir démonstrateur en calcul, où j'ai travaillé avec mon professeur sur le développement de nouveaux matériels et l'organisation d'ateliers hebdomadaires.",
+                "description": "Un démonstrateur est semblable à un assistant d'enseignement. J'ai aidé à développer les matériaux de calcul avec LaTeX et RegEx, nous avons organisé des ateliers hebdomadaires et j'ai également géré un site web de l'école sur les activités des ateliers."
+            }
+        }
+    },
+    "skills": {
+        "title": "Compétences",
+        "subtitle": "Mes compétences techniques et non techniques",
+        "soft": "Compétences non techniques",
+        "hard": "Compétences techniques",
+        "languages": {
+            "name": "Langues",
+            "description": "Courant en anglais (C1), français (C1) et hongrois (langue maternelle)."
+        },
+        "teamwork": {
+            "name": "Travail en équipe",
+            "description": "J'apprécie collaborer avec d'autres pour atteindre des objectifs communs."
+        },
+        "learning": {
+            "name": "Apprentissage des nouvelles technologies",
+            "description": "Je suis passionné par le fait de rester à jour avec les dernières avancées technologiques."
+        },
+        "curiosity": {
+            "name": "Curiosité",
+            "description": "J'ai un fort désir de comprendre comment les choses fonctionnent et d'explorer de nouvelles idées."
+        },
+        "teaching": {
+            "name": "Enseignement",
+            "description": "J'adore expliquer des concepts et aider les autres à apprendre et à grandir."
+        },
+        "precision": {
+            "name": "Travail précis",
+            "description": "Je vise un travail précis et fais très attention aux détails dans mon travail."
+        }
+    },
+    "about": {
+        "title": "À propos",
+        "subtitle": "Informations sur moi, mes études et ma vie professionnelle.",
+        "whoami": "Qui suis-je ?",
+        "studies": "Études",
+        "work": "Travail",
+        "whoami1": {
+            "title": "Qui suis-je ?",
+            "description": "Je suis diplômé en informatique hongrois (depuis 2024) qui s'efforce de devenir un meilleur développeur et j'ai choisi de créer cet espace créatif pour partager mes pensées et mon travail avec toute personne intéressée (et pour apprendre React tout en créant quelque chose d'utile)."
+        },
+        "whoami2": {
+            "title": "À quoi sert ce site ?",
+            "description": "J'aime construire des choses. J'apprécie le processus de création de quelque chose qui résout un problème, et de voir son évolution à chaque étape du processus."
+        },
+        "studies1": {
+            "title": "Licence scientifique (BSc)",
+            "date": "Septembre 2020 - Janvier 2024",
+            "location": "Budapest, Université Dennis Gabor",
+            "position": "Spécialisation en développement logiciel.",
+            "description": "J'ai eu une vie académique active pendant mes études : j'étais démonstrateur en calcul, membre de nombreux ateliers étudiants, et je donnais régulièrement des présentations lors d'événements scolaires (plus de détails sur la page académique). Mon travail de diplôme s'intitulait 'Création d'un serveur de base de données pour les évaluations de produits', qui a été bien accueilli par le jury et a reçu une mention Très Bien.",
+            "tags": ["Calcul", "Statistiques", "Bases de données", "Algorithmes", "Serveurs de bases de données", "Développement Android", "Java", "POO", "Linux"]
+        },
+        "studies2": {
+            "title": "Master (MSc)",
+            "date": "Septembre 2024 - ",
+            "location": "Budapest, Université Dennis Gabor",
+            "position": "Spécialisation en technologie des drones.",
+            "description": "J'ai tellement apprécié mes études de BSc que je n'avais aucun doute sur le fait de vouloir continuer mes années académiques. J'ai choisi la technologie des drones car je pense que c'est un sujet fascinant, et j'ai ressenti que ce serait un bon défi, notamment avec l'aspect de l'analyse d'images riche en mathématiques de cette spécialisation."
+        },
+        "work1": {
+            "title": "Qlex Cloud [qlex.cloud]",
+            "date": "Août 2023 - Octobre 2023",
+            "location": "Remote, Belgique",
+            "position": "Stagiaire développeur de logiciels (Fullstack)",
+            "description": "J'ai travaillé sur un système eQMS pour les professionnels de l'industrie pharmaceutique, en suivant des normes ISO strictes et les pratiques de l'industrie. Entre autres, j'ai travaillé sur des tâches CD/CI, des requêtes avec Spring JPA, du développement frontend.",
+            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+        },
+        "work2": {
+            "title": "ArchX [archx.eu]",
+            "date": "Février 2024 - MAINTENANT",
+            "location": "Remote, Belgique",
+            "position": "Stagiaire développeur de logiciels (Fullstack)",
+            "description": "J'ai travaillé sur un logiciel de gestion de projet (SaaS) pour architectes. Mon travail consistait principalement à créer des API RESTful, à créer des filtres pour les tableaux de bord et à développer le front-end.",
+            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+        }
+    },
+    "resources": {
+        "title": "Ressources",
+        "subtitle": "Ressources en différentes langues que j'ai trouvées incroyablement utiles au cours de mon parcours de développement. Elles espèrent aider d'autres personnes ainsi que mon futur moi-même."
+    },
+    "projects": {
+        "title": "Projets",
+        "summary": "Résumé",
+        "motivation": "Motivation",
+        "techStack": "Environnement technologique",
+        "functionality": "Fonctionnalité",
+        "futureImprovements": "Améliorations futures",
+        "challenges": "Défis",
+        "details": "Voir les détails",
+        "subtitle": "Mes projets liés à l'informatique sur lesquels j'ai travaillé au fil des ans."
+    }
+}
