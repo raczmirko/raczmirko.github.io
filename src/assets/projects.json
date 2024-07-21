@@ -176,5 +176,114 @@
             {"name": "GitHub backend repo", "link": "https://github.com/raczmirko/product-review-app-complete-backend"},
             {"name": "GitHub frontend repo", "link": "https://github.com/raczmirko/product-review-app-complete-frontend-mui"}
         ]
+    },
+    {
+        "title": "English vocabulary & quiz app",
+        "summary": "In my 5th semester at university I took professional IT English as a subject, and wanted to create a custom vocabulary app to keep track of my learnings.",
+        "motivation": "The subject was not particularly challenging, so I decided to have a little fun with the material, and create something useful.",
+        "functionality": "The app was made with Java and JavaFX, featuring import and export functionality which made it possible to share vocabularies with my peers. I also implemented a quiz section that asks for the translation of specific words in the vocabulary, in both directions (ENG-HUN or HUN-ENG). The quiz highscore is saved automatically. I wanted to experiment with many different functionalities when creating this app, such as the feedback-console on the main screen, saving data to files, importing and reading files, changing settings, using progress bars and popup notifications and so on.",
+        "challenges": [
+            "Creating a somewhat nice-looking UI with JavaFX.",
+            "Import/export functionality.",
+            "I had many problems with the relative file URLs when creating the final JAR file of the app."
+        ],
+        "futureImprovements": [
+            "Re-create the GUI with more modern tools.",
+            "A typo-recognition functionality would be great."
+        ],
+        "techStack": ["Java", "JavaFX"],
+        "folder": "english_quiz",
+        "links": []
+    },
+    {
+        "title": "Calculus Quiz App",
+        "summary": "A python app to help revising for the Calculus I. subject during my first semester of university. I used Python 3 for the backend and Tkinter for the GUI, all the quiz solutions were hard coded into the application.",
+        "motivation": "Before starting my BSc studies I had already learned some Python, so I wanted to create an app with something I was already familiar with. Since I had to study quite a lot to pass my calculus exams, I figured it would be a good idea to make a quiz app to practice the theory.",
+        "functionality": "The app was really basic being my first software project. I took some exercices from my calculus workbook, hard-coded them in a source file, and then built a simple quiz around those questions. On the main screen the number of exercises can be defined by the user, then the quiz starts and at the end the points are shown, as well as the wrong answers' id, which were found in the maths workbook I used for the questions.",
+        "challenges": [
+            "Creating a somewhat nice-looking UI with Tkinter.",
+            "Creating a runnable app from the final product. I ended up going for creating an EXE from my python app, but I had many antivirus alerts due to some signature problems"
+        ],
+        "futureImprovements": [],
+        "techStack": ["Python", "Tkinter"],
+        "folder": "calculus_quiz",
+        "links": []
+    },
+    {
+        "title": "Computer Architectures Quiz",
+        "summary": "Computer Architectures university subject quiz app, built in Java with a Swing GUI.",
+        "motivation": "During my BSc studies I took the 'Computer Architectures' subject, which had many theorical questions I needed to revise for, thus I wanted to create another quiz app, this time in Java.",
+        "functionality": "The app was my first Java GUI application, so the functionality is quite basic, the UI looks questionable, but it works! It asks predefined questions, where there is only one correct answer. One upgrade from my Calculus Quiz App is that upon finishing the quiz, the app shows what wrong answers the user gave, and what the correct solutions were.",
+        "challenges": [
+            "Using Swing modals and popup messages."
+        ],
+        "futureImprovements": [
+            "The UI not responsive, changing the window size breaks the app.",
+            "The questions are shown in an editable textbox, which can be edited. They should instead be read-only text."
+        ],
+        "techStack": ["Java", "Swing"],
+        "folder": "computer_architectures_quiz",
+        "links": []
+    },
+    {
+        "title": "Java OOP Quiz",
+        "summary": "A Java quiz app to revise OOP principles and Java theory.",
+        "motivation": "After having taken Java I. and getting to know the basics of Java, I decided to create a Java Quiz application for my Java II. class, with a Swing GUI.",
+        "functionality": "This is the most complex quiz app I made, since each question can have multiple good answers. The questions are shown as images, and the user can press buttons from A to D for each questions to mark the answers. Then, the answers can be manually validated via the 'validate' button, which displays the correct answers as well as the given ones. At the end of the quiz the overall score is shown, with a message based on the score.",
+        "challenges": [
+            "Displaying images in the Swing GUI.",
+            "Handling multiple answers."
+        ],
+        "futureImprovements": [
+            "The UI is really basic, the answering mechanism is not really user friendly. Having to press validate each time is cumbersome.",
+            "The wrong answers are green just like the correct ones, this should be changed."
+        ],
+        "techStack": ["Java", "Swing"],
+        "folder": "oop_quiz",
+        "links": []
+    },
+    {
+        "title": "StudyDB Manager",
+        "summary": "A graphical user interface to a database I designed to keep track of my studying habits. This project's follow-up project is the Personal Project Manager app that can be found amongs my projects.",
+        "motivation": "After having passed my Databases exam with flying colours I wanted to put my knowledge to use. I designed a database structure where I could keep track of my studying habits and projects, but I quickly realised that always having to open my database server to insert records is tedious and slow, so I wanted to design a custom app that allows inserting, updating and deleting records from the database.",
+        "functionality": "The application is basically a frontend to a local Microsoft SQL database that I had designed. It was solely designed for personal use, thus the DB connection is pre-configured in the application. The user can open any of the tables, and then view the records, add new ones, modify or delete existing ones.",
+        "challenges": [
+            "Creating the database connection with JDBC.",
+            "Making the table functional, with editing the cells being intuitive."
+        ],
+        "futureImprovements": [
+            "There is no way to configure the database connection, however it would be useful to have a login screen.",
+            "The database views cannot be viewed from app, so occesionally the user still has to open the DB manually."
+        ],
+        "techStack": ["Java", "JavaFX", "JDBC", "T-SQL", "MSSQL"],
+        "folder": "study_db_manager",
+        "links": []
+    },
+    {
+        "title": "Math Workshop Helper",
+        "summary": "A Java application with a JavaFX GUI to help demonstrate some complex mathematical exercices., such as the KnapSack problem.",
+        "motivation": "The appeal of this app was that I could solve problems that require a lot of calculations, very quickly. This allowed me to compare the results with different input values. I made demos for some exercises that we discussed during the math workshop sessions I participated in at university. I could also use some concepts I learned from statistics and probability, and since I have always loved putting my knowledge into practice, this was a perfect use case for it.",
+        "functionality": "The app is divided into different tabs, each tab demonstrates a mathematical problem. Each problem has instructions to follow, and can be run with different inputs to better understand how they work.",
+        "challenges": [
+            "Creatign the UI, since each tab has a completely different functionality.",
+            "This was my first app where I tried dividing my source code into an MVC structure."
+        ],
+        "futureImprovements": [],
+        "techStack": ["Java", "JavaFX"],
+        "folder": "math_workshop_app",
+        "links": []
+    },
+    {
+        "title": "XML tools for MSSQL",
+        "summary": "A Java tool with a simple GUI to valide XML files, create database tables from XML specifications and insert data to the created tables.",
+        "motivation": "During my 5th semester I took Web Application Development I. where we also learned about XML. At this point I had already been using databases for personal projects, and I wanted to create a tool that can connect my love for databases with XML.",
+        "functionality": "The app validates the syntax of an XML file, and if the syntax is correct it can create a specific database from an XML description. It is also capable of inserting records into certain tables based on XML files. The application supports connecting to any SQL Server instance with a custom login screen.",
+        "challenges": [
+            "Creating the XML-validation logic from scratch."
+        ],
+        "futureImprovements": [],
+        "techStack": ["Java", "JavaFX"],
+        "folder": "xml_tools",
+        "links": []
     }
 ]

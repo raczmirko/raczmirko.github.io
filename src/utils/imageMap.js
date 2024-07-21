@@ -33,6 +33,26 @@ import product_review_app_3 from '../assets/img/product_review_app/product_revie
 import product_review_app_4 from '../assets/img/product_review_app/product_review_app_4.png';
 import product_review_app_5 from '../assets/img/product_review_app/product_review_app_5.png';
 import product_review_app_6 from '../assets/img/product_review_app/product_review_app_6.png';
+import english_quiz_1 from '../assets/img/english_quiz/english_quiz_1.png';
+import english_quiz_2 from '../assets/img/english_quiz/english_quiz_2.png';
+import calculus_quiz_1 from '../assets/img/calculus_quiz/calculus_quiz_1.png';
+import calculus_quiz_2 from '../assets/img/calculus_quiz/calculus_quiz_2.png';
+import calculus_quiz_3 from '../assets/img/calculus_quiz/calculus_quiz_3.png';
+import computer_architectures_quiz_1 from '../assets/img/computer_architectures_quiz/computer_architectures_quiz_1.png';
+import computer_architectures_quiz_2 from '../assets/img/computer_architectures_quiz/computer_architectures_quiz_2.png';
+import computer_architectures_quiz_3 from '../assets/img/computer_architectures_quiz/computer_architectures_quiz_3.png';
+import oop_quiz_1 from '../assets/img/oop_quiz/oop_quiz_1.png';
+import oop_quiz_2 from '../assets/img/oop_quiz/oop_quiz_2.png';
+import oop_quiz_3 from '../assets/img/oop_quiz/oop_quiz_3.png';
+import study_db_manager_1 from '../assets/img/study_db_manager/study_db_1.png';
+import study_db_manager_2 from '../assets/img/study_db_manager/study_db_2.png';
+import math_workshop_app_1 from '../assets/img/math_workshop_app/math_workshop_app_1.png';
+import math_workshop_app_2 from '../assets/img/math_workshop_app/math_workshop_app_2.png';
+import math_workshop_app_3 from '../assets/img/math_workshop_app/math_workshop_app_3.png';
+import math_workshop_app_4 from '../assets/img/math_workshop_app/math_workshop_app_4.png';
+import math_workshop_app_5 from '../assets/img/math_workshop_app/math_workshop_app_5.png';
+import xml_tools_1 from '../assets/img/xml_tools/xml_tools_1.png';
+import xml_tools_2 from '../assets/img/xml_tools/xml_tools_2.png';
 
 export const images = {
     birdcam: [birdcam_1, birdcam_2],
@@ -43,5 +63,12 @@ export const images = {
     puzzle_center: [puzzle_center_1, puzzle_center_2, puzzle_center_3, puzzle_center_4, puzzle_center_5, puzzle_center_6, puzzle_center_7],
     truck_timer: [truck_timer_1, truck_timer_2, truck_timer_3, truck_timer_4, truck_timer_5],
     product_rating_app: [product_rating_app_1, product_rating_app_2],
-    product_review_app: [product_review_app_1, product_review_app_2, product_review_app_3, product_review_app_4, product_review_app_5, product_review_app_6]
+    product_review_app: [product_review_app_1, product_review_app_2, product_review_app_3, product_review_app_4, product_review_app_5, product_review_app_6],
+    english_quiz: [english_quiz_1, english_quiz_2],
+    calculus_quiz: [calculus_quiz_1, calculus_quiz_2, calculus_quiz_3],
+    computer_architectures_quiz: [computer_architectures_quiz_1, computer_architectures_quiz_2, computer_architectures_quiz_3],
+    oop_quiz: [oop_quiz_1, oop_quiz_2, oop_quiz_3],
+    study_db_manager: [study_db_manager_1, study_db_manager_2],
+    math_workshop_app: [math_workshop_app_1, math_workshop_app_2, math_workshop_app_3, math_workshop_app_4, math_workshop_app_5],
+    xml_tools: [xml_tools_1, xml_tools_2]
 };
