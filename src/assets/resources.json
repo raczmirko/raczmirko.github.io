@@ -173,5 +173,12 @@
         "Name": "Developer Roadmaps",
         "Link": "https://roadmap.sh/roadmaps",
         "Description": "A website that offers different development-related roadmaps, which is incredibly useful, especially to keep track of learning progress, and to have an organised learning path."
+    },
+    {
+        "Category": "JavaScript",
+        "Language": "EN",
+        "Name": "Why don't we use var anymore?",
+        "Link": "https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994",
+        "Description": "A Medium blog post about why we don't use var anymore. Instead, const or let is recommended. This has to do with JavaScript scopes."
     }
   ]
