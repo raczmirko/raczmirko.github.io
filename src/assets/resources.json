@@ -173,5 +173,26 @@
         "Name": "Developer Roadmaps",
         "Link": "https://roadmap.sh/roadmaps",
         "Description": "A website that offers different development-related roadmaps, which is incredibly useful, especially to keep track of learning progress, and to have an organised learning path."
+    },
+    {
+        "Category": "JavaScript",
+        "Language": "EN",
+        "Name": "Why don't we use var anymore?",
+        "Link": "https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994",
+        "Description": "A Medium blog post about why we don't use var anymore. Instead, const or let is recommended. This has to do with JavaScript scopes."
+    },
+    {
+        "Category": "Algorithms",
+        "Language": "EN",
+        "Name": "CSES Problem Set Solutions",
+        "Link": "https://www.geeksforgeeks.org/cses-problem-set-solutions/",
+        "Description": "An article about the CSES Problem Set, which is a collection of competitive programming tasks."
+    },
+    {
+        "Category": "Spring",
+        "Language": "EN",
+        "Name": "Transactional: controller vs. service?",
+        "Link": "https://stackoverflow.com/questions/4462785/transactional-controller-vs-service",
+        "Description": "Where to use the @Transactional annotation in Spring? In the Controller or the Service?"
     }
   ]

@@ -26,6 +26,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { AppBar, Drawer, DrawerHeader, drawerWidth } from '../assets/sidebarStyles';
+import LanguageSelector from './LanguageSelector';
+import LanguageIcon from '@mui/icons-material/Language';
 
 export default function MiniDrawer() {
   const theme = useTheme();
@@ -68,7 +70,7 @@ export default function MiniDrawer() {
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <Typography variant="overline" noWrap component="div">
-              OKRIM | Computer Science portfolio
+              {translate('general.pageTitle')}
           </Typography>
           </Box>
           <Box component="img" src="/icon.png" alt="logo" sx={{ maxHeight: '30px', width: 'auto', marginLeft: '10px' }} />
@@ -83,6 +85,7 @@ export default function MiniDrawer() {
         <Divider />
         <Divider />
         <List>
+          {/* Pages */}
           {sidebarOptions.map((option, index) => (
             <ListItem key={option.text} disablePadding sx={{ display: 'block' }}>
               <ListItemButton component={Link} to={option.route}
@@ -99,6 +102,13 @@ export default function MiniDrawer() {
               </ListItemButton>
             </ListItem>
           ))}
+          {/* Language selector */}
+          <ListItem sx={{ minHeight: 48, px: 2.5, }}>
+            <ListItemIcon sx={{ minWidth: 0, mr: open ? 3 : 'auto', justifyContent: 'center', }}>
+              <LanguageIcon/>
+            </ListItemIcon>
+            <LanguageSelector sx={{ opacity: open ? 1 : 0 }}/>
+          </ListItem>
         </List>
       </Drawer>
       {/* Adjust content margin based on sidebar state */}

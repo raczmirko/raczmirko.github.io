@@ -11,6 +11,7 @@ const CustomChips = ({ list }) => {
                 key={index}
                 label={elt}
                 variant="outlined"
+                sx={{fontSize: paragraphSize}}
               />
             );
           })}

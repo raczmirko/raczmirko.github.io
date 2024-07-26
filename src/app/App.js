@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import '../assets/App.css';
-import Sidebar from './Sidebar';
+import Sidebar from '../components/Sidebar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Academic from './pages/Academic';
