@@ -2,7 +2,6 @@ import ImageNotSupportedIcon from '@mui/icons-material/ImageNotSupported';
 import { Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Colors from '../utils/colorUtil';
 
 const ProjectCard = ({ project, onClick }) => {
     const { t: translate } = useTranslation();

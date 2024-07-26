@@ -1,4 +1,4 @@
-import { Backdrop, Box, Button, Fade, ImageList, ImageListItem, Modal, Typography, Divider, Chip } from '@mui/material';
+import { Backdrop, Box, Button, Fade, Modal, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import CloseButton from './CloseButton';

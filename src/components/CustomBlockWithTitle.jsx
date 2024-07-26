@@ -1,7 +1,7 @@
-import { Box, Chip, Divider, List, ListItem, Typography, ListItemIcon } from "@mui/material";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { Box, Chip, Divider, List, ListItem, ListItemIcon, Typography } from "@mui/material";
 import { isValidElement } from "react";
-import { paragraphSize, subTitleSize } from "../assets/styles";
+import { paragraphSize } from "../assets/styles";
 
 const CustomBlockWithTitle = ({ title, body }) => {
     if (body === null || body.length === 0 || body === undefined) return;

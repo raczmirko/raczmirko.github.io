@@ -1,6 +1,5 @@
 import { Box } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import birdcam_2 from '../assets/img/birdcam/birdcam_2.jpg';
 import DisplayCard from "./DisplayCard";
 
 const AchievementCards = () => {

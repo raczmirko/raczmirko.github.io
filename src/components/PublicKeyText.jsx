@@ -1,16 +1,15 @@
 import { Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import publicKeyTxt from '../assets/okrim_public_key.asc';
 
 const PublicKeyText = () => {
-  const [publicKey, setPublicKey] = useState(publicKeyTxt);
+  const [publicKey, setPublicKey] = useState('');
 
   useEffect(() => {
-    fetch(publicKey)
+    fetch('/assets/okrim_public_key.asc')
       .then(response => response.text())
-      .then(data => setPublicKey(data))
+      .then(text  => setPublicKey(text))  
       .catch(error => console.error('Error fetching the public key:', error));
-  }, []);
+  });
 
   return (
     <Typography fontSize={16}>

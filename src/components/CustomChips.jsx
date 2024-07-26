@@ -4,7 +4,7 @@ import { paragraphSize } from '../assets/styles';
 
 const CustomChips = ({ list }) => {
     return (
-        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+        <Box sx={{ flexWrap: 'wrap', display: 'flex', gap: 1 }}>
           {list.map((elt, index) => {
             return (
               <Chip
