@@ -1,11 +1,11 @@
-import { Box, Container, Stack } from '@mui/material';
+import { Box } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import DisplayCard from "./DisplayCard";
 import birdcam_1 from '../assets/img/birdcam/birdcam_1.jpg';
+import presentation_databases from '../assets/img/presentation_databases.jpg';
 import presentation_maths_1 from '../assets/img/presentation_maths_1.jpg';
 import presentation_maths_2 from '../assets/img/presentation_maths_2.jpg';
 import presentation_maths_3 from '../assets/img/presentation_maths_3.jpg';
-import presentation_databases from '../assets/img/presentation_databases.jpg';
+import DisplayCard from "./DisplayCard";
 
 const PresentationCards = () => {
     const { t: translate } = useTranslation();

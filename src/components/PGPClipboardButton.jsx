@@ -1,13 +1,12 @@
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { Button } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import publicKeyTxt from '../assets/okrim_public_key.asc';
 
 const TextClipboardButton = ({ label }) => {
-  const [publicKey, setPublicKey] = useState(publicKeyTxt);
+  const [publicKey, setPublicKey] = useState('');
 
   useEffect(() => {
-    fetch(publicKey)
+    fetch('/assets/okrim_public_key.asc')
       .then(response => response.text())
       .then(data => setPublicKey(data))
       .catch(error => console.error('Error fetching the public key:', error));

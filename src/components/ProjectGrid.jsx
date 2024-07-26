@@ -1,5 +1,4 @@
-import ImageNotSupportedIcon from '@mui/icons-material/ImageNotSupported';
-import { Box, CardMedia, Grid, Pagination } from '@mui/material';
+import { Box, Grid, Pagination } from '@mui/material';
 import React, { useState } from 'react';
 import projects from '../assets/projects.json';
 import { images } from '../utils/imageMap';

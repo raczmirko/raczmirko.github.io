@@ -6,16 +6,6 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import { paragraphSize } from '../assets/styles';
 
 const CustomAccordion = ({ title, body: Body, bgColor, textColor }) => {
-    const getIconWithContrast = () => {
-        switch(textColor){
-            case 'white':
-                return <ExpandMoreIcon />;
-            case 'black':
-                return <ExpandMoreIcon color='black'/>;
-            default:
-                return <ExpandMoreIcon />;
-        }
-    }
 
     return (
         <Accordion sx={{ bgcolor: bgColor }}>

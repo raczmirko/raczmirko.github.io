@@ -1,7 +1,6 @@
-import { Card, CardContent, Typography, Box } from '@mui/material';
+import { Box, Card, CardContent, Typography } from '@mui/material';
+import { cardHeight, cardIconSize, cardTitleSize, cardWidth, paragraphSize } from '../assets/styles';
 import colorUtil from '../utils/colorUtil';
-import { outlinedTextStyle, titleSize, subTitleSize, 
-    paragraphSize, cardHeight, cardWidth, cardIconSize, cardTitleSize } from '../assets/styles';
 
 const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
     return (
