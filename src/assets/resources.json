@@ -187,5 +187,12 @@
         "Name": "CSES Problem Set Solutions",
         "Link": "https://www.geeksforgeeks.org/cses-problem-set-solutions/",
         "Description": "An article about the CSES Problem Set, which is a collection of competitive programming tasks."
+    },
+    {
+        "Category": "Spring",
+        "Language": "EN",
+        "Name": "Transactional: controller vs. service?",
+        "Link": "https://stackoverflow.com/questions/4462785/transactional-controller-vs-service",
+        "Description": "Where to use the @Transactional annotation in Spring? In the Controller or the Service?"
     }
   ]
