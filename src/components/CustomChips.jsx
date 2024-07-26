@@ -1,5 +1,6 @@
 import { Box, Chip } from '@mui/material';
 import React from 'react';
+import { paragraphSize } from '../assets/styles';
 
 const CustomChips = ({ list }) => {
     return (
