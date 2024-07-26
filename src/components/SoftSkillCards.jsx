@@ -2,8 +2,8 @@ import * as Icons from '@mui/icons-material';
 import { Grid } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import skillsData from '../assets/skills.json';
-import CustomCard from './CustomCard';
 import Colors from '../utils/colorUtil';
+import CustomCard from './CustomCard';
 
 const SoftSkillCards = () => {
     const { t: translate } = useTranslation();
