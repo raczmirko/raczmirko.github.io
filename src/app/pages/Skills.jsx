@@ -1,12 +1,12 @@
 import { Box } from '@mui/material';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
-import BlockTitle from '../../components/BlockTitle';
-import ParticleBackground from "../../components/ParticleBackground";
-import TitleCard from '../../components/TitleCard';
+import BlockTitle from '../../components/common/BlockTitle';
+import ParticleBackground from "../../components/common/ParticleBackground";
+import TitleCard from '../../components/common/TitleCard';
 import Colors from '../../utils/colorUtil';
-import SoftSkillCards from '../../components/SoftSkillCards';
-import SkillChips from '../../components/SkillChips';
+import SoftSkillCards from '../../components/pages/skills/SoftSkillCards';
+import SkillChips from '../../components/pages/skills/SkillChips';
 
 const Skills = () => {
     const { t: translate } = useTranslation();

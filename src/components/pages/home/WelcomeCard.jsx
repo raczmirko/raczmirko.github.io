@@ -1,13 +1,21 @@
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import bannerImage from '../assets/banner.jpg';
-import { cardTitleSize, heroCardHeight, outlinedTextStyle, subTitleSize, titleSize } from '../assets/styles';
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import React from "react";
+import { useTranslation } from "react-i18next";
+import bannerImage from "../../../assets/banner.jpg";
+import {
+  cardTitleSize,
+  heroCardHeight,
+  outlinedTextStyle,
+  subTitleSize,
+  titleSize,
+} from "../../../assets/styles";
 
 const WelcomeCard = () => {
   const { t: translate } = useTranslation();
   return (
-    <Card sx={{ position: 'relative', overflow: 'hidden', borderRadius: '15px' }}>
+    <Card
+      sx={{ position: "relative", overflow: "hidden", borderRadius: "15px" }}
+    >
       <CardMedia
         component="img"
         alt="Image of an ancient monument in nature"
@@ -18,27 +26,27 @@ const WelcomeCard = () => {
           height: {
             xs: heroCardHeight.xs, // mobile
             sm: heroCardHeight.sm, // small screens
-            md: heroCardHeight.md // medium and up
-          }
+            md: heroCardHeight.md, // medium and up
+          },
         }}
       />
       <CardContent
         sx={{
-          position: 'absolute',
+          position: "absolute",
           top: 0,
           left: 0,
-          width: '100%',
-          height: '100%',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          color: 'white',
-          textAlign: 'center',
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          color: "white",
+          textAlign: "center",
           padding: {
-            xs: '16px', // mobile
-            sm: '24px' // small screens and up
-          }
+            xs: "16px", // mobile
+            sm: "24px", // small screens and up
+          },
         }}
       >
         <Typography
@@ -47,13 +55,13 @@ const WelcomeCard = () => {
             fontSize: {
               xs: cardTitleSize.xs, // mobile
               sm: cardTitleSize.sm, // small screens
-              md: cardTitleSize.md // medium and up
+              md: cardTitleSize.md, // medium and up
             },
             ...outlinedTextStyle,
-            lineHeight: '1.2'
+            lineHeight: "1.2",
           }}
         >
-          {translate('home.welcome')}
+          {translate("home.welcome")}
         </Typography>
         <Typography
           component="div"
@@ -61,13 +69,13 @@ const WelcomeCard = () => {
             fontSize: {
               xs: titleSize.xs, // mobile
               sm: titleSize.sm, // small screens
-              md: titleSize.md // medium and up
+              md: titleSize.md, // medium and up
             },
             ...outlinedTextStyle,
-            lineHeight: '1.2'
+            lineHeight: "1.2",
           }}
         >
-          {translate('home.authorName')}
+          {translate("home.authorName")}
         </Typography>
         <Typography
           variant="h5"
@@ -77,12 +85,12 @@ const WelcomeCard = () => {
             fontSize: {
               xs: subTitleSize.xs, // mobile
               sm: subTitleSize.sm, // small screens
-              md: subTitleSize.md // medium and up
+              md: subTitleSize.md, // medium and up
             },
-            ...outlinedTextStyle
+            ...outlinedTextStyle,
           }}
         >
-          {translate('home.welcomeMsg')}
+          {translate("home.welcomeMsg")}
         </Typography>
       </CardContent>
     </Card>

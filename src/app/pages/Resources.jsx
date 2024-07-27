@@ -1,9 +1,9 @@
 import Box from '@mui/material/Box';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
-import ParticleBackground from "../../components/ParticleBackground";
-import ResourceComponent from "../../components/ResourceComponent";
-import TitleCard from '../../components/TitleCard';
+import ParticleBackground from "../../components/common/ParticleBackground";
+import ResourceComponent from "../../components/pages/resources/ResourceComponent";
+import TitleCard from '../../components/common/TitleCard';
 import Colors from '../../utils/colorUtil';
 
 const Resources = () => {
