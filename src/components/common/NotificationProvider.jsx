@@ -15,18 +15,20 @@ export const NotificationProvider = ({ children }) => {
     };
 
     return (
-    <NotificationContext.Provider value={showNotification}>
-        {children}
-        <Notification
-        alertType={notification.alertType}
-        alertText={notification.alertText}
-        isOpen={notification.isOpen}
-        setIsOpen={closeNotification}
-        />
-    </NotificationContext.Provider>
+        <NotificationContext.Provider value={showNotification}>
+            {children}
+            <Notification
+                alertType={notification.alertType}
+                alertText={notification.alertText}
+                isOpen={notification.isOpen}
+                setIsOpen={closeNotification}
+            />
+        </NotificationContext.Provider>
     );
 };
 
 export const useNotification = () => {
     return useContext(NotificationContext);
 };
+
+export default NotificationProvider;

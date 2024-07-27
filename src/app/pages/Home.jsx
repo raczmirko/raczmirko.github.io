@@ -6,10 +6,10 @@ import AcademicIcon from '@mui/icons-material/School';
 import { Box, Grid } from '@mui/material';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
-import BlockTitle from '../../components/BlockTitle';
-import CustomCard from "../../components/CustomCard";
-import ParticleBackground from "../../components/ParticleBackground";
-import WelcomeCard from "../../components/WelcomeCard";
+import BlockTitle from '../../components/common/BlockTitle';
+import CustomCard from "../../components/cards/CustomCard";
+import ParticleBackground from "../../components/common/ParticleBackground";
+import WelcomeCard from "../../components/pages/home/WelcomeCard";
 
 const Home = () => {
     const { t: translate } = useTranslation();

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Chip } from '@mui/material';
 import * as Icons from '@mui/icons-material';
-import skillsData from '../assets/skills.json';
-import { paragraphSize } from '../assets/styles';
+import skillsData from '../../../assets/skills.json';
+import { paragraphSize } from '../../../assets/styles';
 
 const SkillChips = () => {
   return (

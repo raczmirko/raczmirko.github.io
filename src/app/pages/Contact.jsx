@@ -2,13 +2,13 @@ import { EmailOutlined } from '@mui/icons-material';
 import { Box, Grid } from '@mui/material';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
-import BlockTitle from '../../components/BlockTitle';
-import CustomAccordion from '../../components/CustomAccordion';
-import CustomCard from "../../components/CustomCard";
-import ParticleBackground from "../../components/ParticleBackground";
-import PublicKeyCard from '../../components/PublicKeyCard';
-import PublicKeyText from '../../components/PublicKeyText';
-import TitleCard from '../../components/TitleCard';
+import BlockTitle from '../../components/common/BlockTitle';
+import CustomAccordion from '../../components/containers/CustomAccordion';
+import CustomCard from "../../components/cards/CustomCard";
+import ParticleBackground from "../../components/common/ParticleBackground";
+import PublicKeyCard from '../../components/pages/contact/PublicKeyCard';
+import PublicKeyText from '../../components/pages/contact/PublicKeyText';
+import TitleCard from '../../components/common/TitleCard';
 import Colors from '../../utils/colorUtil';
 
 const Contact = () => {

@@ -1,15 +1,15 @@
 import { Box, Grid } from '@mui/material';
 import Container from "@mui/material/Container";
 import { useTranslation } from 'react-i18next';
-import BlockTitle from '../../components/BlockTitle';
-import CustomAccordion from '../../components/CustomAccordion';
-import JustifiedTextCard from '../../components/JustifiedTextCard';
-import ParticleBackground from "../../components/ParticleBackground";
-import TitleCard from '../../components/TitleCard';
+import BlockTitle from '../../components/common/BlockTitle';
+import CustomAccordion from '../../components/containers/CustomAccordion';
+import JustifiedTextCard from '../../components/cards/JustifiedTextCard';
+import ParticleBackground from "../../components/common/ParticleBackground";
+import TitleCard from '../../components/common/TitleCard';
 import Colors from '../../utils/colorUtil';
-import PresentationCards from '../../components/PresentationCards';
-import PublicationCards from '../../components/PublicationCards';
-import AchievementCards from '../../components/AchievementCards';
+import PresentationCards from '../../components/pages/academic/PresentationCards';
+import PublicationCards from '../../components/pages/academic/PublicationCards';
+import AchievementCards from '../../components/pages/academic/AchievementCards';
 
 const Academic = () => {
     const { t: translate } = useTranslation();
