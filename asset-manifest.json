@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.16db395a.css",
-    "main.js": "/static/js/main.ad88913e.js",
+    "main.js": "/static/js/main.0ca97062.js",
     "static/media/banner.jpg": "/static/media/banner.73a30472beab62d9f1c9.jpg",
     "static/media/birdcam_2.jpg": "/static/media/birdcam_2.107256e945046621a23d.jpg",
     "static/media/birdcam_1.jpg": "/static/media/birdcam_1.dccadd831d555c7ca236.jpg",
@@ -61,13 +61,12 @@
     "static/media/study_db_1.png": "/static/media/study_db_1.c112e9fafe09e6422dd1.png",
     "static/media/calculus_quiz_3.png": "/static/media/calculus_quiz_3.92b916704db399ab09cb.png",
     "index.html": "/index.html",
-    "static/media/okrim_public_key.asc": "/static/media/okrim_public_key.aa26884c699d97ba8cc8.asc",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.16db395a.css.map": "/static/css/main.16db395a.css.map",
-    "main.ad88913e.js.map": "/static/js/main.ad88913e.js.map"
+    "main.0ca97062.js.map": "/static/js/main.0ca97062.js.map"
   },
   "entrypoints": [
     "static/css/main.16db395a.css",
-    "static/js/main.ad88913e.js"
+    "static/js/main.0ca97062.js"
   ]
 }
