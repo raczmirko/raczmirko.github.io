@@ -194,5 +194,19 @@
         "Name": "Transactional: controller vs. service?",
         "Link": "https://stackoverflow.com/questions/4462785/transactional-controller-vs-service",
         "Description": "Where to use the @Transactional annotation in Spring? In the Controller or the Service?"
+    },
+    {
+      "Category": "GitHub Pages",
+      "Language": "EN",
+      "Name": "Automatic deploy via gh-pages",
+      "Link": "https://www.npmjs.com/package/gh-pages",
+      "Description": "Automatic deployments of a branch to GitHub Pages via the gh-pages command."
+    },
+    {
+      "Category": "Git",
+      "Language": "EN",
+      "Name": "Git Branch Naming Convention",
+      "Link": "https://dev.to/couchcamote/git-branching-name-convention-cch",
+      "Description": "How should git branches be called?"
     }
   ]
