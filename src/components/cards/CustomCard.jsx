@@ -34,25 +34,25 @@ const CustomCard = ({ icon: Icon, title, body, bgColor, textColor }) => {
           },
         }}
       >
-        {Icon && (
-          <Box sx={{ marginRight: 4 }}>
-            <Icon sx={{ fontSize: cardIconSize }} />
+        <Box sx={{ width: '100%' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Typography
+              component="div"
+              sx={{
+                fontSize: {
+                  xs: cardTitleSize.xs, // mobile
+                  sm: cardTitleSize.sm, // small screens
+                  md: cardTitleSize.md, // medium and up
+                },
+                lineHeight: "1.2",
+              }}
+            >
+              {title}
+            </Typography>
+            {Icon && (
+              <Icon sx={{ fontSize: cardIconSize }} />
+            )}
           </Box>
-        )}
-        <Box>
-          <Typography
-            component="div"
-            sx={{
-              fontSize: {
-                xs: cardTitleSize.xs, // mobile
-                sm: cardTitleSize.sm, // small screens
-                md: cardTitleSize.md, // medium and up
-              },
-              lineHeight: "1.2",
-            }}
-          >
-            {title}
-          </Typography>
           <Typography
             variant="h5"
             component="div"
