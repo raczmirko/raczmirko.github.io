@@ -5,6 +5,9 @@ import { HashRouter } from 'react-router-dom';
 import App from './app/App';
 import NotificationProvider from '../src/components/common/NotificationProvider';
 import i18n from './i18n';
+import initializeAnalytics from './utils/analytics';
+
+initializeAnalytics();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
