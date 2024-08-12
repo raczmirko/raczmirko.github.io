@@ -1,6 +1,7 @@
 {
     "list": [
         { "name": "GitHub", "link": "https://github.com/raczmirko", "icon": "GitHub" },
-        { "name": "LinkedIn", "link": "https://www.linkedin.com/in/raczmirko", "icon": "LinkedIn" }
+        { "name": "LinkedIn", "link": "https://www.linkedin.com/in/raczmirko", "icon": "LinkedIn" },
+        { "name": "Blog", "link": "https://okrim.hu", "icon": "Feed" }
     ]
 }
