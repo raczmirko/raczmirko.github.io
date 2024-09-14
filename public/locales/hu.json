@@ -193,15 +193,23 @@
             "location": "Remote, Belgium",
             "position": "Szoftverfejlesztő gyakornok (Fullstack)",
             "description": "Egy gyógyszerészeti szakemberek számára kialakított eQMS rendszeren dolgoztam, szigorú ISO szabványokat és iparági gyakorlatokat követve. Többek között CD/CI feladatokon, Spring JPA-val végzett lekérdezéseken, frontend fejlesztéseken dolgoztam.",
-            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
         },
         "work2": {
             "title": "ArchX [archx.eu]",
-            "date": "2024. február - MOST",
+            "date": "2024. február - 2024. szeptember",
             "location": "Remote, Belgium",
             "position": "Szoftverfejlesztő gyakornok (Fullstack)",
             "description": "Egy projektmenedzsment szoftveren (SaaS) dolgoztam építészek számára. Munkám leginkább a RESTful API-k, a dashboarding célokra szolgáló szűrők és a frontend fejlesztések körül forgott.",
-            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
+        },
+        "work3": {
+            "title": "ArchX [archx.eu]",
+            "date": "2024. szeptember - MOST",
+            "location": "Remote, Belgium",
+            "position": "Junior Full-Stack Szoftverfejlesztő",
+            "description": "Full-Stack szoftverfejlesztőként az ArchX-nél, egy tapasztalt fejlesztőkkből álló csapatban dolgozom, ahol a célunk innovatív és skálázható építészeti ERP szoftvermegoldások létrehozása. Munkám során többek között Java, Spring, SQL, webalkalmazás-fejlesztés és AngularJS tudásomat alkalmazom. Munkám minőségét, hatékonyságát és kreativitását pozitív visszajelzések kísérik.",
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
         }
     },
     "resources": {

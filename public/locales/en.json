@@ -191,15 +191,23 @@
             "location": "Remote, Belgium",
             "position": "Software developer intern (Fullstack)",
             "description": "I worked on an eQMS system for pharmaceutical professionals, following strict ISO standards and industry practices. Amongst others, I worked on CD/CI tasks, queries with Spring JPA, frontend development.",
-            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
         },
         "work2": {
             "title": "ArchX [archx.eu]",
-            "date": "02/2024 - NOW",
+            "date": "02/2024 - 09/2024",
             "location": "Remote, Belgium",
             "position": "Software developer intern (Fullstack)",
             "description": "I worked on a project management software (SaaS) for architects. My work mostly revolved around building RESTful APIs, building filters for dashboarding purposes and frontend development.",
-            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
+        },
+        "work3": {
+            "title": "ArchX [archx.eu]",
+            "date": "09/2024 - NOW",
+            "location": "Remote, Belgium",
+            "position": "Junior Full-Stack Software Developer",
+            "description": "As a Full-Stack Software Developer at ArchX, I collaborate with a team of experienced developers to create innovative and scalable solutions for various clients. I apply my skills in Java, Spring, SQL, Web development, AngularJS and more to develop software solutions for architects. I have received positive feedback for my work quality, efficiency, and creativity.",
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
         }
     },
     "resources": {

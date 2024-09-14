@@ -191,15 +191,23 @@
             "location": "Remote, Belgique",
             "position": "Stagiaire développeur de logiciels (Fullstack)",
             "description": "J'ai travaillé sur un système eQMS pour les professionnels de l'industrie pharmaceutique, en suivant des normes ISO strictes et les pratiques de l'industrie. Entre autres, j'ai travaillé sur des tâches CD/CI, des requêtes avec Spring JPA, du développement frontend.",
-            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
         },
         "work2": {
             "title": "ArchX [archx.eu]",
-            "date": "Février 2024 - MAINTENANT",
+            "date": "Février 2024 - Septembre 2024",
             "location": "Remote, Belgique",
             "position": "Stagiaire développeur de logiciels (Fullstack)",
             "description": "J'ai travaillé sur un logiciel de gestion de projet (SaaS) pour architectes. Mon travail consistait principalement à créer des API RESTful, à créer des filtres pour les tableaux de bord et à développer le front-end.",
-            "tags": ["Java", "Spring", "Angular", "PostgreSQL", "BitBucket", "Jira"]
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
+        },
+        "work3": {
+            "title": "ArchX [archx.eu]",
+            "date": "09/2024 - NOW",
+            "location": "Remote, Belgique",
+            "position": "Junior Développeur de Logiciel Full-Stack",
+            "description": "En tant que développeur logiciel Full-Stack chez ArchX, je collabore avec une équipe de développeurs expérimentés pour créer des solutions innovantes et évolutives pour divers clients. J'applique mes compétences en Java, Spring, SQL, développement Web, AngularJS et plus encore pour développer des solutions logicielles destinées aux architectes. J'ai reçu des retours positifs concernant la qualité, l'efficacité et la créativité de mon travail.",
+            "tags": ["Java", "Spring", "AngularJS", "PostgreSQL", "BitBucket", "Jira"]
         }
     },
     "resources": {
