@@ -118,6 +118,18 @@ export default function AboutTabs() {
         <Grid container spacing={{ xs: 1, sm: 2 }} justifyContent="center">
           <Grid item xs={12} sm={12}>
             <DetailedCustomCard
+              title={translate("about.work3.title")}
+              date={translate("about.work3.date")}
+              location={translate("about.work3.location")}
+              position={translate("about.work3.position")}
+              body={translate("about.work3.description")}
+              tags={translate("about.work3.tags", { returnObjects: true })}
+              icon={EngineeringIcon}
+              bgColor={Colors.SPANISH_ORANGE}
+            />
+          </Grid>
+          <Grid item xs={12} sm={12}>
+            <DetailedCustomCard
               title={translate("about.work2.title")}
               date={translate("about.work2.date")}
               location={translate("about.work2.location")}
